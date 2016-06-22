@@ -7,7 +7,11 @@ import rootReducer from './reducers/index';
 import questions from './data/questions';
 
 const defaultState = {
-  questions
+  questions,
+  appState: {
+    currentQuestion: null,
+    currentQuestionNumber: -1
+  }
 };
 
 const store = createStore(rootReducer, defaultState);

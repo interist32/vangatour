@@ -1,5 +1,7 @@
-export default function questions(state = [], action) {
+export default function appState(state = {}, action) {
   switch(action.type){
+    case "START":
+    return state;
     case "NEXT_QUESTION":
     return state;
     case "PREVIOUS_QUESTION":
@@ -7,5 +9,6 @@ export default function questions(state = [], action) {
     default:
     return state;
   }
+  
   return state;
 };

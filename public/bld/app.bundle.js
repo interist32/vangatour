@@ -76,6 +76,7 @@
 
 	function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) newObj[key] = obj[key]; } } newObj.default = obj; return newObj; } }
 
+	console.log(_store2.default.getState());
 	var router = React.createElement(
 		_reactRedux.Provider,
 		{ store: _store2.default },
@@ -25707,7 +25708,8 @@
 
 	function mapStateToProps(state) {
 	  return {
-	    questions: state.questions
+	    questions: state.questions,
+	    appState: state.appState
 	  };
 	}
 
@@ -27433,15 +27435,8 @@
 	Object.defineProperty(exports, "__esModule", {
 	  value: true
 	});
-	exports.start = start;
 	exports.goNext = goNext;
 	exports.goBack = goBack;
-	function start() {
-	  return {
-	    type: 'START_QUESTION'
-	  };
-	};
-
 	function goNext() {
 	  return {
 	    type: 'NEXT_QUESTION'
@@ -27546,7 +27541,11 @@
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 	var defaultState = {
-	  questions: _questions2.default
+	  questions: _questions2.default,
+	  appState: {
+	    currentQuestion: null,
+	    currentQuestionNumber: -1
+	  }
 	};
 
 	var store = (0, _redux.createStore)(_index2.default, defaultState);
@@ -27923,19 +27922,24 @@
 
 	'use strict';
 
-	[{
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+	var questions = [{
 	  id: 1,
 	  title: 'Выберите страну, куда хотите поехать?',
 	  variants: [{
 	    id: 1,
-	    caption: 'Russia',
+	    caption: 'Россия',
 	    image: 'http://url'
 	  }, {
 	    id: 2,
-	    caption: 'Spain',
+	    caption: 'Испания',
 	    image: 'http://url'
 	  }]
 	}];
+
+	exports.default = questions;
 
 /***/ },
 /* 265 */
@@ -27955,9 +27959,14 @@
 
 	var _questions2 = _interopRequireDefault(_questions);
 
+	var _appState = __webpack_require__(269);
+
+	var _appState2 = _interopRequireDefault(_appState);
+
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 	var rootReducer = (0, _redux.combineReducers)({
+	  appState: _appState2.default,
 	  questions: _questions2.default,
 	  routing: _reactRouterRedux.routerReducer
 	});
@@ -27980,8 +27989,6 @@
 	  var action = arguments[1];
 
 	  switch (action.type) {
-	    case "START_QUESTION":
-	      return state;
 	    case "NEXT_QUESTION":
 	      return state;
 	    case "PREVIOUS_QUESTION":
@@ -28018,6 +28025,34 @@
 	};
 
 	exports.default = Question;
+
+/***/ },
+/* 269 */
+/***/ function(module, exports) {
+
+	"use strict";
+
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+	exports.default = appState;
+	function appState() {
+	  var state = arguments.length <= 0 || arguments[0] === undefined ? {} : arguments[0];
+	  var action = arguments[1];
+
+	  switch (action.type) {
+	    case "START":
+	      return state;
+	    case "NEXT_QUESTION":
+	      return state;
+	    case "PREVIOUS_QUESTION":
+	      return state;
+	    default:
+	      return state;
+	  }
+
+	  return state;
+	};
 
 /***/ }
 /******/ ]);
