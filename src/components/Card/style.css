@@ -1,0 +1,15 @@
+.b-card {
+  background: white;
+  margin: 1em;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 270px;
+}
+
+.b-card-image {
+  height: 10em;
+}
+
+.b-card-caption {
+  padding: .5em;
+}

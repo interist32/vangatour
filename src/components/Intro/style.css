@@ -1,0 +1,13 @@
+.intro {
+  text-align: center;
+}
+.title {
+  font-size: 2em;
+}
+
+.subtitle {
+}
+
+.intro .btn {
+  margin: 1rem;
+}

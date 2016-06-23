@@ -1,9 +1,16 @@
 import * as React from 'react';
+import 'style!./style.css'
 
 const Card = (props) => {
-  return (<div onClick={props.onClick}>
-    <h4>{props.caption}</h4>
-    <img src={props.url} />
-    </div>);
-  }
-  export default Card;
+  const imageStyle = {
+    backgroundImage: `url(${props.image})`,
+    backgroundSize: 'cover'
+  };
+  return (
+    <figure className="b-card" onClick={props.onClick}>
+      <div className="b-card-image" style={imageStyle}></div>
+      <figcaption className="b-card-caption">{props.caption}</figcaption>
+    </figure>
+  );
+}
+export default Card;

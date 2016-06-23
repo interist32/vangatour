@@ -1,0 +1,19 @@
+.card-wrapper-flex {
+  display: flex;
+  justify-content: center;
+}
+
+.card-wrapper-float .b-card {
+  float: left;
+}
+
+/* Portrait */
+@media only screen
+  and (min-device-width: 320px)
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+    .card-wrapper-flex {
+      flex-direction: column;
+  }
+}

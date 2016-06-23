@@ -30,12 +30,15 @@ var config = {
 			},
 			{
 				test: /\.css$/,
-				loader: ExtractTextPlugin.extract('style', 'css?modules&importLoaders=1&localIdentName=c-[name]__[local]__[hash:base64:5]!postcss-loader')
+				loader: 'style-loader!css-loader!postcss-loader'
 			},
+			{
+				 test: /\.jpg$/, loader: "file-loader"
+			}
 		]
 	},
 	postcss: function () {
-		return [require('autoprefixer'), require('postcss-import'), require('postcss-css-variables')];
+		return [require('autoprefixer'), require('postcss-import')];
 	},
 	plugins: [
 		new webpack.DefinePlugin({

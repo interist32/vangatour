@@ -1,8 +1,7 @@
 import {browserHistory} from 'react-router';
 
 export default function questions(state = {}, action) {
-  console.log('questions reducer');
-  console.log(state);
+  var newState;
 
   switch(action.type){
     case "ANSWER_QUESTION":
@@ -11,9 +10,15 @@ export default function questions(state = {}, action) {
       answerId: action.answerId
     }];
 
-    let newState = Object.assign({}, state);
-    newState.answers = answers;
+    newState = Object.assign({}, state);
+    newState.answers = newState.answers.concat(answers);
     return newState;
+
+    case "IS_FETCHING":
+    console.log(Object.assign({}, state, {isFetching: true}));
+      return Object.assign({}, state, {isFetching: true});
+    case "IS_NOT_FETCHING":
+      return Object.assign({},state, {isFetching: false});
 
     default:
     return state;

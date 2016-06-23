@@ -23,6 +23,14 @@ server.register(inert, (err)=>{
     }
   });
 
+  server.route({
+    method: 'GET',
+    path: '/getOffers',
+    handler: function(request, reply){
+      reply([]);
+    }
+  });
+
   server.start(()=>{
     console.log(`Server started at ${server.info.uri}`);
   });
