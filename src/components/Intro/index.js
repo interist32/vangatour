@@ -1,6 +1,5 @@
 import * as React from 'react';
 import {Link} from 'react-router';
-import { push } from 'react-router-redux'
 import 'style!./style.css'
 
 const Intro = (props) => <div className="intro">

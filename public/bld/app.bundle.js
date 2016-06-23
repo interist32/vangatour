@@ -66,13 +66,13 @@
 
 	var _Question2 = _interopRequireDefault(_Question);
 
-	var _Result = __webpack_require__(276);
+	var _Result = __webpack_require__(279);
 
 	var _Result2 = _interopRequireDefault(_Result);
 
 	var _reactRedux = __webpack_require__(242);
 
-	var _store = __webpack_require__(277);
+	var _store = __webpack_require__(280);
 
 	var _store2 = _interopRequireDefault(_store);
 
@@ -27453,13 +27453,19 @@
 	};
 
 	function fetchResults(answers) {
+	  var data = new FormData();
+	  data.append("json", JSON.stringify(answers));
+
 	  return function (dispatch) {
 	    dispatch(showFetching());
-	    fetch('/getOffers').then(function (response) {
+	    fetch('/getOffers', {
+	      method: 'POST',
+	      body: data
+	    }).then(function (response) {
 	      dispatch(hideFetching());
-	      if (response.status == 200) {
-	        dispatch(showResults([]));
-	      }
+	      return response.json();
+	    }).then(function (data) {
+	      dispatch(showResults(data));
 	    });
 	  };
 	};
@@ -27572,7 +27578,7 @@
 
 
 	// module
-	exports.push([module.id, "html, body {\n  margin: 0;\n  padding: 0;\n  height:100%;\n  width: 100%;\n}\n", ""]);
+	exports.push([module.id, "html, body {\n  margin: 0;\n  padding: .5em;\n  height:100%;\n  width: 100%;\n  background-attachment: fixed;\n}\n", ""]);
 
 	// exports
 
@@ -27900,8 +27906,6 @@
 	var React = _interopRequireWildcard(_react);
 
 	var _reactRouter = __webpack_require__(167);
-
-	var _reactRouterRedux = __webpack_require__(263);
 
 	__webpack_require__(268);
 
@@ -28381,7 +28385,7 @@
 
 	var _reactRouter = __webpack_require__(167);
 
-	__webpack_require__(273);
+	__webpack_require__(276);
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -28462,7 +28466,7 @@
 
 	var React = _interopRequireWildcard(_react);
 
-	__webpack_require__(283);
+	__webpack_require__(273);
 
 	function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) newObj[key] = obj[key]; } } newObj.default = obj; return newObj; } }
 
@@ -28545,13 +28549,79 @@
 
 
 	// module
-	exports.push([module.id, ".card-wrapper-flex {\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-pack: center;\n      -ms-flex-pack: center;\n          justify-content: center;\n}\n\n.card-wrapper-float .b-card {\n  float: left;\n}\n\n/* Portrait */\n\n@media only screen\n  and (min-device-width: 320px)\n  and (max-device-width: 480px)\n  and (-webkit-min-device-pixel-ratio: 2)\n  and (orientation: portrait) {\n    .card-wrapper-flex {\n      -webkit-box-orient: vertical;\n      -webkit-box-direction: normal;\n          -ms-flex-direction: column;\n              flex-direction: column;\n  }\n}\n", ""]);
+	exports.push([module.id, ".b-card {\n  background: white;\n  margin: 1em;\n  border-radius: 5px;\n  cursor: pointer;\n  width: 270px;\n}\n\n.b-card-image {\n  height: 10em;\n}\n\n.b-card-caption {\n  padding: .5em;\n}\n", ""]);
 
 	// exports
 
 
 /***/ },
 /* 276 */
+/***/ function(module, exports, __webpack_require__) {
+
+	// style-loader: Adds some css to the DOM by adding a <style> tag
+
+	// load the styles
+	var content = __webpack_require__(277);
+	if(typeof content === 'string') content = [[module.id, content, '']];
+	// add the styles to the DOM
+	var update = __webpack_require__(261)(content, {});
+	if(content.locals) module.exports = content.locals;
+	// Hot Module Replacement
+	if(false) {
+		// When the styles change, update the <style> tags
+		if(!content.locals) {
+			module.hot.accept("!!./../../../node_modules/style-loader/index.js!./../../../node_modules/css-loader/index.js!./../../../node_modules/postcss-loader/index.js!./style.css", function() {
+				var newContent = require("!!./../../../node_modules/style-loader/index.js!./../../../node_modules/css-loader/index.js!./../../../node_modules/postcss-loader/index.js!./style.css");
+				if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
+				update(newContent);
+			});
+		}
+		// When the module is disposed, remove the <style> tags
+		module.hot.dispose(function() { update(); });
+	}
+
+/***/ },
+/* 277 */
+/***/ function(module, exports, __webpack_require__) {
+
+	// style-loader: Adds some css to the DOM by adding a <style> tag
+
+	// load the styles
+	var content = __webpack_require__(278);
+	if(typeof content === 'string') content = [[module.id, content, '']];
+	// add the styles to the DOM
+	var update = __webpack_require__(261)(content, {});
+	if(content.locals) module.exports = content.locals;
+	// Hot Module Replacement
+	if(false) {
+		// When the styles change, update the <style> tags
+		if(!content.locals) {
+			module.hot.accept("!!./../../../node_modules/css-loader/index.js!./../../../node_modules/postcss-loader/index.js!./style.css", function() {
+				var newContent = require("!!./../../../node_modules/css-loader/index.js!./../../../node_modules/postcss-loader/index.js!./style.css");
+				if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
+				update(newContent);
+			});
+		}
+		// When the module is disposed, remove the <style> tags
+		module.hot.dispose(function() { update(); });
+	}
+
+/***/ },
+/* 278 */
+/***/ function(module, exports, __webpack_require__) {
+
+	exports = module.exports = __webpack_require__(260)();
+	// imports
+
+
+	// module
+	exports.push([module.id, ".card-wrapper-flex {\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-pack: center;\n      -ms-flex-pack: center;\n          justify-content: center;\n}\n\n.card-wrapper-float .b-card {\n  float: left;\n}\n\n/* Portrait */\n\n@media only screen\n  and (min-device-width: 320px)\n  and (max-device-width: 480px)\n  and (-webkit-min-device-pixel-ratio: 2)\n  and (orientation: portrait) {\n    .card-wrapper-flex {\n      -webkit-box-orient: vertical;\n      -webkit-box-direction: normal;\n          -ms-flex-direction: column;\n              flex-direction: column;\n  }\n}\n", ""]);
+
+	// exports
+
+
+/***/ },
+/* 279 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -28566,9 +28636,17 @@
 
 	var React = _interopRequireWildcard(_react);
 
-	var _Card = __webpack_require__(272);
+	var _HotelCard = __webpack_require__(290);
 
-	var _Card2 = _interopRequireDefault(_Card);
+	var _HotelCard2 = _interopRequireDefault(_HotelCard);
+
+	var _Spinner = __webpack_require__(286);
+
+	var _Spinner2 = _interopRequireDefault(_Spinner);
+
+	var _reactRouter = __webpack_require__(167);
+
+	__webpack_require__(294);
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -28586,7 +28664,12 @@
 	  function Result() {
 	    _classCallCheck(this, Result);
 
-	    return _possibleConstructorReturn(this, Object.getPrototypeOf(Result).call(this));
+	    var _this = _possibleConstructorReturn(this, Object.getPrototypeOf(Result).call(this));
+
+	    _this.state = {
+	      showAlternates: false
+	    };
+	    return _this;
 	  }
 
 	  _createClass(Result, [{
@@ -28597,31 +28680,49 @@
 	  }, {
 	    key: 'render',
 	    value: function render() {
+	      var _this2 = this;
+
+	      var offers = this.props.questions.results.map(function (offer) {
+	        return React.createElement(_HotelCard2.default, {
+	          key: offer.id,
+	          id: offer.id,
+	          title: offer.title,
+	          rating: offer.rating,
+	          price: offer.price
+	        });
+	      });
+
+	      var isFound = !this.props.questions.isFetching;
+
+	      if (isFound) {
+	        setTimeout(function () {
+	          _this2.setState({
+	            showAlternates: true
+	          });
+	        }, 5000);
+	      }
+
 	      return React.createElement(
 	        'div',
 	        null,
 	        React.createElement(
-	          'h2',
-	          null,
-	          'This is result!'
-	        ),
-	        this.props.questions.isFetching && "Loading...",
-	        React.createElement(
 	          'div',
-	          null,
-	          'Хочется чего-то другого? Попробуйте наш',
-	          React.createElement(
-	            'a',
-	            { href: 'http://tours.tutu.ru', target: '_blank' },
-	            'суперпоиск'
-	          ),
-	          '.'
+	          { className: 'title' },
+	          'Ура! Вы восхитительны!'
 	        ),
-	        React.createElement(
+	        !isFound && React.createElement(_Spinner2.default, null),
+	        isFound && React.createElement(
 	          'div',
-	          null,
-	          'Отправить запрос на подбор тура нашим заботливым турменеджерам?'
-	        )
+	          { className: 'subtitle' },
+	          'Итак, вот какие отели идеально подходят под указанные Вами параметры'
+	        ),
+	        isFound && React.createElement(
+	          'div',
+	          { className: 'b-result' },
+	          offers
+	        ),
+	        React.createElement('hr', null),
+	        this.state.showAlternates && React.createElement(Alternates, null)
 	      );
 	    }
 	  }]);
@@ -28629,10 +28730,45 @@
 	  return Result;
 	}(React.Component);
 
+	var Alternates = function Alternates() {
+	  return React.createElement(
+	    'div',
+	    null,
+	    React.createElement(
+	      'div',
+	      { className: 'subtitle centered' },
+	      React.createElement(
+	        'p',
+	        null,
+	        'Мы промахнулись? Эти отели Вам не подошли? Что ж, это странно. Тогда:'
+	      ),
+	      React.createElement(
+	        'a',
+	        { className: 'btn btn-success', href: 'http://tours.tutu.ru?utm_source=vangatour', target: '_blank' },
+	        'Попробуйте наш суперпоиск!'
+	      )
+	    ),
+	    React.createElement(
+	      'div',
+	      { className: 'or' },
+	      'ИЛИ'
+	    ),
+	    React.createElement(
+	      'div',
+	      { className: 'subtitle centered' },
+	      React.createElement(
+	        _reactRouter.Link,
+	        { to: '/q/1', className: 'btn btn-secondary' },
+	        'Попробуйте еще раз!'
+	      )
+	    )
+	  );
+	};
+
 	exports.default = Result;
 
 /***/ },
-/* 277 */
+/* 280 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -28648,15 +28784,15 @@
 
 	var _reactRouter = __webpack_require__(167);
 
-	var _reduxThunk = __webpack_require__(278);
+	var _reduxThunk = __webpack_require__(281);
 
 	var _reduxThunk2 = _interopRequireDefault(_reduxThunk);
 
-	var _index = __webpack_require__(279);
+	var _index = __webpack_require__(282);
 
 	var _index2 = _interopRequireDefault(_index);
 
-	var _questions = __webpack_require__(282);
+	var _questions = __webpack_require__(285);
 
 	var _questions2 = _interopRequireDefault(_questions);
 
@@ -28668,9 +28804,9 @@
 	    currentQuestion: null,
 	    currentQuestionNumber: -1,
 	    answers: [],
-	    isFetching: false
-	  },
-	  appState: {}
+	    isFetching: false,
+	    results: []
+	  }
 	};
 
 	var store = (0, _redux.createStore)(_index2.default, defaultState, (0, _redux.applyMiddleware)(_reduxThunk2.default));
@@ -28680,7 +28816,7 @@
 	exports.default = store;
 
 /***/ },
-/* 278 */
+/* 281 */
 /***/ function(module, exports) {
 
 	'use strict';
@@ -28708,7 +28844,7 @@
 	exports['default'] = thunk;
 
 /***/ },
-/* 279 */
+/* 282 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -28721,18 +28857,13 @@
 
 	var _reactRouterRedux = __webpack_require__(263);
 
-	var _questions = __webpack_require__(280);
+	var _questions = __webpack_require__(283);
 
 	var _questions2 = _interopRequireDefault(_questions);
-
-	var _appState = __webpack_require__(281);
-
-	var _appState2 = _interopRequireDefault(_appState);
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 	var rootReducer = (0, _redux.combineReducers)({
-	  appState: _appState2.default,
 	  questions: _questions2.default,
 	  routing: _reactRouterRedux.routerReducer
 	});
@@ -28740,7 +28871,7 @@
 	exports.default = rootReducer;
 
 /***/ },
-/* 280 */
+/* 283 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -28770,11 +28901,11 @@
 	      return newState;
 
 	    case "IS_FETCHING":
-	      console.log(Object.assign({}, state, { isFetching: true }));
 	      return Object.assign({}, state, { isFetching: true });
 	    case "IS_NOT_FETCHING":
 	      return Object.assign({}, state, { isFetching: false });
-
+	    case "SHOW_RESULTS":
+	      return Object.assign({}, state, { results: action.results });
 	    default:
 	      return state;
 	  }
@@ -28782,34 +28913,8 @@
 	};
 
 /***/ },
-/* 281 */
-/***/ function(module, exports) {
-
-	"use strict";
-
-	Object.defineProperty(exports, "__esModule", {
-	  value: true
-	});
-	exports.default = appState;
-	function appState() {
-	  var state = arguments.length <= 0 || arguments[0] === undefined ? {} : arguments[0];
-	  var action = arguments[1];
-
-	  console.log('appstate reducer');
-	  switch (action.type) {
-	    case "NEXT_QUESTION":
-	      return state;
-	    case "PREVIOUS_QUESTION":
-	      return state;
-	    default:
-	      return state;
-	  }
-
-	  return state;
-	};
-
-/***/ },
-/* 282 */
+/* 284 */,
+/* 285 */
 /***/ function(module, exports) {
 
 	'use strict';
@@ -28934,13 +29039,42 @@
 	exports.default = questions;
 
 /***/ },
-/* 283 */
+/* 286 */
+/***/ function(module, exports, __webpack_require__) {
+
+	'use strict';
+
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+
+	var _react = __webpack_require__(1);
+
+	var React = _interopRequireWildcard(_react);
+
+	__webpack_require__(287);
+
+	function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) newObj[key] = obj[key]; } } newObj.default = obj; return newObj; } }
+
+	var Spinner = function Spinner() {
+	  return React.createElement(
+	    'div',
+	    { className: 'spinner' },
+	    React.createElement('div', { className: 'double-bounce1' }),
+	    React.createElement('div', { className: 'double-bounce2' })
+	  );
+	};
+
+	exports.default = Spinner;
+
+/***/ },
+/* 287 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// style-loader: Adds some css to the DOM by adding a <style> tag
 
 	// load the styles
-	var content = __webpack_require__(284);
+	var content = __webpack_require__(288);
 	if(typeof content === 'string') content = [[module.id, content, '']];
 	// add the styles to the DOM
 	var update = __webpack_require__(261)(content, {});
@@ -28960,13 +29094,13 @@
 	}
 
 /***/ },
-/* 284 */
+/* 288 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// style-loader: Adds some css to the DOM by adding a <style> tag
 
 	// load the styles
-	var content = __webpack_require__(285);
+	var content = __webpack_require__(289);
 	if(typeof content === 'string') content = [[module.id, content, '']];
 	// add the styles to the DOM
 	var update = __webpack_require__(261)(content, {});
@@ -28986,7 +29120,7 @@
 	}
 
 /***/ },
-/* 285 */
+/* 289 */
 /***/ function(module, exports, __webpack_require__) {
 
 	exports = module.exports = __webpack_require__(260)();
@@ -28994,7 +29128,200 @@
 
 
 	// module
-	exports.push([module.id, ".b-card {\n  background: white;\n  margin: 1em;\n  border-radius: 5px;\n  cursor: pointer;\n  width: 270px;\n}\n\n.b-card-image {\n  height: 10em;\n}\n\n.b-card-caption {\n  padding: .5em;\n}\n", ""]);
+	exports.push([module.id, ".spinner {\n  width: 40px;\n  height: 40px;\n\n  position: relative;\n  margin: 100px auto;\n}\n\n.double-bounce1, .double-bounce2 {\n  width: 100%;\n  height: 100%;\n  border-radius: 50%;\n  background-color: #333;\n  opacity: 0.6;\n  position: absolute;\n  top: 0;\n  left: 0;\n\n  -webkit-animation: sk-bounce 2.0s infinite ease-in-out;\n  animation: sk-bounce 2.0s infinite ease-in-out;\n}\n\n.double-bounce2 {\n  -webkit-animation-delay: -1.0s;\n  animation-delay: -1.0s;\n}\n\n@-webkit-keyframes sk-bounce {\n  0%, 100% { -webkit-transform: scale(0.0) }\n  50% { -webkit-transform: scale(1.0) }\n}\n\n@keyframes sk-bounce {\n  0%, 100% {\n    transform: scale(0.0);\n    -webkit-transform: scale(0.0);\n  } 50% {\n    transform: scale(1.0);\n    -webkit-transform: scale(1.0);\n  }\n}\n", ""]);
+
+	// exports
+
+
+/***/ },
+/* 290 */
+/***/ function(module, exports, __webpack_require__) {
+
+	'use strict';
+
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+
+	var _react = __webpack_require__(1);
+
+	var React = _interopRequireWildcard(_react);
+
+	__webpack_require__(291);
+
+	function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) newObj[key] = obj[key]; } } newObj.default = obj; return newObj; } }
+
+	var HotelCard = function HotelCard(props) {
+	  var rating = parseFloat(props.rating.replace(',', '.'));
+	  var label = rating >= 7 ? 'label label-pill label-success' : 'label label-pill label-warning';
+	  return React.createElement(
+	    'figure',
+	    { className: 'b-hotel-card' },
+	    React.createElement(
+	      'div',
+	      { className: 'b-hotel-card_title' },
+	      'Отель ',
+	      props.title
+	    ),
+	    React.createElement(
+	      'div',
+	      { className: 'b-hotel-card_rating' },
+	      'Рейтинг: ',
+	      React.createElement(
+	        'span',
+	        { className: label },
+	        rating.toFixed(1)
+	      )
+	    ),
+	    React.createElement(
+	      'div',
+	      { className: 'b-hotel-card_price' },
+	      'Цена: ',
+	      props.price,
+	      ' руб./чел'
+	    ),
+	    React.createElement(
+	      'figcaption',
+	      { className: 'b-hotel-card_button' },
+	      React.createElement(
+	        'a',
+	        { target: '_blank', className: 'btn btn-primary', href: 'http://tours.tutu.ru/hotel/' + props.id + '/?utm_source=vangatour' },
+	        'Фото, отзывы, описание →'
+	      )
+	    )
+	  );
+	};
+
+	exports.default = HotelCard;
+
+/***/ },
+/* 291 */
+/***/ function(module, exports, __webpack_require__) {
+
+	// style-loader: Adds some css to the DOM by adding a <style> tag
+
+	// load the styles
+	var content = __webpack_require__(292);
+	if(typeof content === 'string') content = [[module.id, content, '']];
+	// add the styles to the DOM
+	var update = __webpack_require__(261)(content, {});
+	if(content.locals) module.exports = content.locals;
+	// Hot Module Replacement
+	if(false) {
+		// When the styles change, update the <style> tags
+		if(!content.locals) {
+			module.hot.accept("!!./../../../node_modules/style-loader/index.js!./../../../node_modules/css-loader/index.js!./../../../node_modules/postcss-loader/index.js!./style.css", function() {
+				var newContent = require("!!./../../../node_modules/style-loader/index.js!./../../../node_modules/css-loader/index.js!./../../../node_modules/postcss-loader/index.js!./style.css");
+				if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
+				update(newContent);
+			});
+		}
+		// When the module is disposed, remove the <style> tags
+		module.hot.dispose(function() { update(); });
+	}
+
+/***/ },
+/* 292 */
+/***/ function(module, exports, __webpack_require__) {
+
+	// style-loader: Adds some css to the DOM by adding a <style> tag
+
+	// load the styles
+	var content = __webpack_require__(293);
+	if(typeof content === 'string') content = [[module.id, content, '']];
+	// add the styles to the DOM
+	var update = __webpack_require__(261)(content, {});
+	if(content.locals) module.exports = content.locals;
+	// Hot Module Replacement
+	if(false) {
+		// When the styles change, update the <style> tags
+		if(!content.locals) {
+			module.hot.accept("!!./../../../node_modules/css-loader/index.js!./../../../node_modules/postcss-loader/index.js!./style.css", function() {
+				var newContent = require("!!./../../../node_modules/css-loader/index.js!./../../../node_modules/postcss-loader/index.js!./style.css");
+				if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
+				update(newContent);
+			});
+		}
+		// When the module is disposed, remove the <style> tags
+		module.hot.dispose(function() { update(); });
+	}
+
+/***/ },
+/* 293 */
+/***/ function(module, exports, __webpack_require__) {
+
+	exports = module.exports = __webpack_require__(260)();
+	// imports
+
+
+	// module
+	exports.push([module.id, ".b-hotel-card {\n  background: white;\n  margin: 1em;\n  border-radius: 5px;\n  padding: .5em;\n  -webkit-box-flex: 1;\n      -ms-flex: 1;\n          flex: 1;\n  max-width: 255px;\n}\n\n.b-hotel-card_title {\n  font-weight: 1.1rem;\n  font-weight: bold;\n}\n\n.b-hotel-card_button {\n  margin: .5em 0;\n}\n", ""]);
+
+	// exports
+
+
+/***/ },
+/* 294 */
+/***/ function(module, exports, __webpack_require__) {
+
+	// style-loader: Adds some css to the DOM by adding a <style> tag
+
+	// load the styles
+	var content = __webpack_require__(295);
+	if(typeof content === 'string') content = [[module.id, content, '']];
+	// add the styles to the DOM
+	var update = __webpack_require__(261)(content, {});
+	if(content.locals) module.exports = content.locals;
+	// Hot Module Replacement
+	if(false) {
+		// When the styles change, update the <style> tags
+		if(!content.locals) {
+			module.hot.accept("!!./../../../node_modules/style-loader/index.js!./../../../node_modules/css-loader/index.js!./../../../node_modules/postcss-loader/index.js!./style.css", function() {
+				var newContent = require("!!./../../../node_modules/style-loader/index.js!./../../../node_modules/css-loader/index.js!./../../../node_modules/postcss-loader/index.js!./style.css");
+				if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
+				update(newContent);
+			});
+		}
+		// When the module is disposed, remove the <style> tags
+		module.hot.dispose(function() { update(); });
+	}
+
+/***/ },
+/* 295 */
+/***/ function(module, exports, __webpack_require__) {
+
+	// style-loader: Adds some css to the DOM by adding a <style> tag
+
+	// load the styles
+	var content = __webpack_require__(296);
+	if(typeof content === 'string') content = [[module.id, content, '']];
+	// add the styles to the DOM
+	var update = __webpack_require__(261)(content, {});
+	if(content.locals) module.exports = content.locals;
+	// Hot Module Replacement
+	if(false) {
+		// When the styles change, update the <style> tags
+		if(!content.locals) {
+			module.hot.accept("!!./../../../node_modules/css-loader/index.js!./../../../node_modules/postcss-loader/index.js!./style.css", function() {
+				var newContent = require("!!./../../../node_modules/css-loader/index.js!./../../../node_modules/postcss-loader/index.js!./style.css");
+				if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
+				update(newContent);
+			});
+		}
+		// When the module is disposed, remove the <style> tags
+		module.hot.dispose(function() { update(); });
+	}
+
+/***/ },
+/* 296 */
+/***/ function(module, exports, __webpack_require__) {
+
+	exports = module.exports = __webpack_require__(260)();
+	// imports
+
+
+	// module
+	exports.push([module.id, ".b-result {\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-pack: center;\n      -ms-flex-pack: center;\n          justify-content: center;\n}\n\n.or {\n  font-size: 2em;\n  margin: .5em;\n  text-align: center;\n}\n\n.centered {\n  text-align: center;\n}\n\n/* Portrait */\n\n@media only screen\n  and (min-device-width: 320px)\n  and (max-device-width: 480px)\n  and (-webkit-min-device-pixel-ratio: 2)\n  and (orientation: portrait) {\n    .b-result {\n      -webkit-box-orient: vertical;\n      -webkit-box-direction: normal;\n          -ms-flex-direction: column;\n              flex-direction: column;\n  }\n}\n", ""]);
 
 	// exports
 

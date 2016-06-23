@@ -13,10 +13,8 @@ const defaultState = {
     currentQuestion: null,
     currentQuestionNumber: -1,
     answers: [],
-    isFetching: false
-  },
-  appState: {
-
+    isFetching: false,
+    results: []
   }
 };
 

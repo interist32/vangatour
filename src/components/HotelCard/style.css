@@ -1,0 +1,17 @@
+.b-hotel-card {
+  background: white;
+  margin: 1em;
+  border-radius: 5px;
+  padding: .5em;
+  flex: 1;
+  max-width: 255px;
+}
+
+.b-hotel-card_title {
+  font-weight: 1.1rem;
+  font-weight: bold;
+}
+
+.b-hotel-card_button {
+  margin: .5em 0;
+}

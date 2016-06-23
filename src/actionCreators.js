@@ -7,13 +7,19 @@ export function answerQuestion(questionId, answerId){
 };
 
 export function fetchResults(answers){
+  var data = new FormData();
+  data.append( "json", JSON.stringify( answers ) );
+
   return dispatch => {
     dispatch(showFetching());
-    fetch('/getOffers').then((response) => {
+    fetch('/getOffers', {
+      method: 'POST',
+      body: data
+    }).then((response) => {
       dispatch(hideFetching());
-      if(response.status == 200){
-        dispatch(showResults([]));
-      }
+      return response.json();
+    }).then((data)=>{
+      dispatch(showResults(data));
     });
   }
 };
