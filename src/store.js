@@ -7,10 +7,14 @@ import rootReducer from './reducers/index';
 import questions from './data/questions';
 
 const defaultState = {
-  questions,
-  appState: {
+  questions: {
+    list: questions,
     currentQuestion: null,
-    currentQuestionNumber: -1
+    currentQuestionNumber: -1,
+    answers: []
+  },
+  appState: {
+
   }
 };
 

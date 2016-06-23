@@ -1,11 +1,8 @@
-export function goNext(){
+export function answerQuestion(questionId, answerId){
+  console.log(1);
   return {
-    type: 'NEXT_QUESTION'
-  }
-};
-
-export function goBack(){
-  return {
-    type: 'PREVIOUS_QUESTION'
+    type: 'ANSWER_QUESTION',
+    questionId,
+    answerId
   }
 };

@@ -1,7 +1,6 @@
 export default function appState(state = {}, action) {
+  console.log('appstate reducer');
   switch(action.type){
-    case "START":
-    return state;
     case "NEXT_QUESTION":
     return state;
     case "PREVIOUS_QUESTION":
@@ -9,6 +8,6 @@ export default function appState(state = {}, action) {
     default:
     return state;
   }
-  
+
   return state;
 };

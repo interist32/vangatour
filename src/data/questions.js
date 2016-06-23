@@ -14,6 +14,22 @@ const questions = [
         image: 'http://url'
       }
     ]
+  },
+  {
+    id: 2,
+    title: 'Как пройти в библиотеку?',
+    variants: [
+      {
+        id: 1,
+        caption: 'Никак',
+        image: 'http://url'
+      },
+      {
+        id: 2,
+        caption: 'Прямо',
+        image: 'http://url'
+      }
+    ]
   }
 ];
 
