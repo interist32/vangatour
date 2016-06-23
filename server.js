@@ -41,7 +41,7 @@ server.register(inert, (err)=>{
 function filterOffers(offers, userData) {
   var filteredOffers = offers.slice();
 
-  filteredOffers = filteredOffers
+  return filteredOffers
     .filter(o=>o.country == userData['1'])
     .filter(o=>o.hasChild == userData['2'])
     .filter(o=>o.budget == userData['3'])

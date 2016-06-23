@@ -8,7 +8,7 @@ export function answerQuestion(questionId, answerId){
 
 export function fetchResults(answers){
   var data = new FormData();
-  data.append( "json", JSON.stringify( answers ) );
+  data.append( "json", JSON.stringify(answers));
 
   return dispatch => {
     dispatch(showFetching());
