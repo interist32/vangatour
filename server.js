@@ -41,16 +41,22 @@ server.register(inert, (err)=>{
 function filterOffers(offers, userData) {
   var filteredOffers = offers.slice();
 
-  return filteredOffers
+  filteredOffers = filteredOffers
     .filter(o=>o.country == userData['1'])
     .filter(o=>o.hasChild == userData['2'])
     .filter(o=>o.budget == userData['3'])
     .filter(o=>userData['4']==3 || o.category == userData['4'])
     .filter(o=>o.beach == userData['5'])
     .filter(o=>o.seaDistance == userData['6'])
-    .filter(o=>userData['7']==2 || o.theme == userData['7'])
-    .sort((a,b)=>{
-      return parseFloat(b.rating.replace(',', '.')) - parseFloat(a.rating.replace(',', '.'));
-    })
-    .slice(0, 4);
+    .filter(o=>userData['7']==2 || o.theme == userData['7']);
+
+    if(filteredOffers.length === 0){
+      filteredOffers = offers.slice();
+    }
+
+    return filteredOffers
+      .sort((a,b)=>{
+        return parseFloat(b.rating.replace(',', '.')) - parseFloat(a.rating.replace(',', '.'));
+      })
+      .slice(0, 4);
 }
