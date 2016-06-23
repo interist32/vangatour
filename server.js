@@ -51,7 +51,9 @@ function filterOffers(offers, userData) {
     .filter(o=>userData['7']==2 || o.theme == userData['7']);
 
     if(filteredOffers.length === 0){
-      filteredOffers = offers.slice();
+      filteredOffers = offers
+        .filter(o=>o.country == userData['1'])
+        .filter(o=>o.budget == userData['3']);
     }
 
     return filteredOffers
