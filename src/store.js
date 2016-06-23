@@ -12,7 +12,7 @@ const defaultState = {
     list: questions,
     currentQuestion: null,
     currentQuestionNumber: -1,
-    answers: [],
+    answers: {},
     isFetching: false,
     results: []
   }

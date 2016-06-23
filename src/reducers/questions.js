@@ -5,13 +5,9 @@ export default function questions(state = {}, action) {
 
   switch(action.type){
     case "ANSWER_QUESTION":
-    let answers = [{
-      questionId: action.questionId,
-      answerId: action.answerId
-    }];
-
     newState = Object.assign({}, state);
-    newState.answers = newState.answers.concat(answers);
+    newState.answers[action.questionId] = action.answerId;
+    
     return newState;
 
     case "IS_FETCHING":
