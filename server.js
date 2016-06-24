@@ -5,6 +5,8 @@ const path = require('path');
 const fs = require('fs');
 
 const offers = require('./data.json');
+var winston = require('winston');
+winston.add(winston.transports.File, { filename: './logs/result.log' });
 
 server.connection({
   host: 'localhost',
@@ -46,7 +48,10 @@ server.register(inert, (err)=>{
     method: 'POST',
     path: '/getOffers',
     handler: function(request, reply){
-      reply(filterOffers(offers, JSON.parse(request.payload.json)));
+      var answers = JSON.parse(request.payload.json);
+
+      winston.log('info', 'getOffers', { answers: answers });
+      reply(filterOffers(offers, answers));
     }
   });
 
