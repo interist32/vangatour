@@ -10,7 +10,7 @@ const HotelCard = (props) => {
         <div className="b-hotel-card_rating">
           Рейтинг: <span className={label}>{rating.toFixed(1)}</span>
         </div>
-        <div className="b-hotel-card_price">Цена: {props.price} руб./чел</div>
+        <div className="b-hotel-card_price">Цена: ~{props.price} руб./чел</div>
       <figcaption className="b-hotel-card_button">
         <a target="_blank" className="btn btn-primary" href={`http://tours.tutu.ru/hotel/${props.id}/?utm_source=vangatour`}>Фото, отзывы, описание &rarr;</a>
       </figcaption>
