@@ -21,6 +21,7 @@ class Result extends React.Component {
       <HotelCard
       key={offer.id}
       id={offer.id}
+      country={offer.country}
       title={offer.title}
       rating={offer.rating}
       price={offer.price}

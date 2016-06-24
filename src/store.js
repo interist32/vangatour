@@ -10,8 +10,6 @@ import questions from './data/questions';
 const defaultState = {
   questions: {
     list: questions,
-    currentQuestion: null,
-    currentQuestionNumber: -1,
     answers: {},
     isFetching: false,
     results: []

@@ -1,7 +1,7 @@
 const questions = [
   {
     id: 1,
-    title: 'Выберите страну, куда хотите поехать?',
+    title: 'Выберите страну, в которую хотите поехать:',
     variants: [
       {
         id: 1,
@@ -37,6 +37,11 @@ const questions = [
         id: 7,
         caption: 'Испания',
         image: 'http://snovadoma.ru/media/photos/b3326cf9249de64a4950b7f6f55699dc.jpg'
+      },
+      {
+        id: 8,
+        caption: 'Любая страна',
+        image: 'http://www.worldtravel.ie/wp-content/uploads/2011/07/shutterstock_82132558.jpg'
       },
     ]
   },
@@ -100,17 +105,22 @@ const questions = [
   },
   {
     id: 5,
-    title: 'Пляж должен быть песчаным?',
+    title: 'Какой пляж вы предпочитаете?',
     variants: [
       {
         id: 1,
-        caption: 'Да',
+        caption: 'Песчаный',
         image: 'http://20meridian.ru/sites/default/files/plyazh-yantarnogo-kaliningradskoy-oblasti.jpg'
       },
       {
         id: 2,
-        caption: 'Нет',
-        image: 'http://www.3d-madonnari.com/wp-content/uploads/2015/11/Glass-beach-in-California-photo-5.jpg'
+        caption: 'Галечный',
+        image: 'http://crimea-media.ru/Foto/FotoForos/Bereg.jpeg'
+      },
+      {
+        id: 3,
+        caption: 'Любой',
+        image: 'http://www.s.0542.ua/section/catalog_album_photos/upload/pers/44/img/catalog/photos/000/000/013/_kartinki_kokos_i_ochki_146192818135.jpg'
       },
     ]
   },

@@ -64,17 +64,17 @@ function filterOffers(offers, userData) {
   var filteredOffers = offers.slice();
 
   filteredOffers = filteredOffers
-    .filter(o=>o.country == userData['1'])
+    .filter(o=>userData['1'] == 8 || o.country == userData['1'])
     .filter(o=>o.hasChild == userData['2'])
     .filter(o=>o.budget == userData['3'])
     .filter(o=>userData['4']==3 || o.category == userData['4'])
-    .filter(o=>o.beach == userData['5'])
+    .filter(o=>userData['5']==3 || o.beach == userData['5'])
     .filter(o=>o.seaDistance == userData['6'])
     .filter(o=>userData['7']==2 || o.theme == userData['7']);
 
     if(filteredOffers.length === 0){
       filteredOffers = offers
-        .filter(o=>o.country == userData['1'])
+        .filter(o=>userData['1'] == 8 || o.country == userData['1'])
         .filter(o=>o.budget == userData['3']);
     }
 
