@@ -2,6 +2,7 @@ const hapi  = require('hapi');
 const server = new hapi.Server();
 const inert = require('inert');
 const path = require('path');
+const fs = require('fs');
 
 const offers = require('./data.json');
 
@@ -17,11 +18,27 @@ server.register(inert, (err)=>{
 
   server.route({
     method: 'GET',
-    path: '/{param*}',
+    path: '/{params*}',
     handler: {
       directory: {
         path: path.join(__dirname, 'public')
       }
+    }
+  });
+
+  server.route({
+    method: 'GET',
+    path: '/q/{q}',
+    handler: function(request, reply){
+      return reply.redirect('/');
+    }
+  });
+
+  server.route({
+    method: 'GET',
+    path: '/result',
+    handler: function(request, reply){
+      return reply.redirect('/');
     }
   });
 

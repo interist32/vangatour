@@ -9,7 +9,7 @@
    "beach":1,
    "seaDistance":1,
    "theme":1,
-   "rating":"8,40",
+   "rating":"8,4",
    "price":31809
  },
  {
@@ -22,7 +22,7 @@
    "beach":1,
    "seaDistance":1,
    "theme":1,
-   "rating":"8,10",
+   "rating":"8,1",
    "price":30303
  },
  {
@@ -35,7 +35,7 @@
    "beach":1,
    "seaDistance":2,
    "theme":1,
-   "rating":"8,50",
+   "rating":"8,5",
    "price":58004
  },
  {
@@ -48,7 +48,7 @@
    "beach":1,
    "seaDistance":1,
    "theme":1,
-   "rating":"8,50",
+   "rating":"8,5",
    "price":25141
  },
  {
@@ -61,7 +61,7 @@
    "beach":1,
    "seaDistance":2,
    "theme":1,
-   "rating":"7,60",
+   "rating":"7,6",
    "price":44640
  },
  {
@@ -74,7 +74,7 @@
    "beach":1,
    "seaDistance":1,
    "theme":1,
-   "rating":"8,30",
+   "rating":"8,3",
    "price":29862
  },
  {
@@ -87,7 +87,7 @@
    "beach":1,
    "seaDistance":2,
    "theme":1,
-   "rating":"9,00",
+   "rating":"9",
    "price":34502
  },
  {
@@ -100,7 +100,7 @@
    "beach":1,
    "seaDistance":1,
    "theme":1,
-   "rating":"9,20",
+   "rating":"9,2",
    "price":113483
  },
  {
@@ -113,7 +113,7 @@
    "beach":2,
    "seaDistance":2,
    "theme":1,
-   "rating":"9,20",
+   "rating":"9,2",
    "price":41851
  },
  {
@@ -126,12 +126,12 @@
    "beach":1,
    "seaDistance":1,
    "theme":1,
-   "rating":"9,10",
+   "rating":"9,1",
    "price":41071
  },
  {
    "id":1005,
-   "title":"Eri Sun Village�Water Park",
+   "title":"Eri Sun Village Water Park",
    "country":3,
    "hasChild":1,
    "budget":2,
@@ -139,7 +139,7 @@
    "beach":2,
    "seaDistance":2,
    "theme":1,
-   "rating":"7,60",
+   "rating":"7,6",
    "price":29728
  },
  {
@@ -152,7 +152,7 @@
    "beach":1,
    "seaDistance":2,
    "theme":1,
-   "rating":"8,20",
+   "rating":"8,2",
    "price":28289
  },
  {
@@ -165,7 +165,7 @@
    "beach":1,
    "seaDistance":2,
    "theme":1,
-   "rating":"8,20",
+   "rating":"8,2",
    "price":14171
  },
  {
@@ -178,7 +178,7 @@
    "beach":2,
    "seaDistance":1,
    "theme":1,
-   "rating":"7,40",
+   "rating":"7,4",
    "price":33116
  },
  {
@@ -191,7 +191,7 @@
    "beach":1,
    "seaDistance":1,
    "theme":1,
-   "rating":"8,70",
+   "rating":"8,7",
    "price":26500
  },
  {
@@ -204,7 +204,7 @@
    "beach":1,
    "seaDistance":2,
    "theme":1,
-   "rating":"7,80",
+   "rating":"7,8",
    "price":49991
  },
  {
@@ -217,7 +217,7 @@
    "beach":1,
    "seaDistance":2,
    "theme":1,
-   "rating":"8,90",
+   "rating":"8,9",
    "price":20456
  },
  {
@@ -230,7 +230,7 @@
    "beach":1,
    "seaDistance":1,
    "theme":1,
-   "rating":"8,50",
+   "rating":"8,5",
    "price":39342
  },
  {
@@ -243,7 +243,7 @@
    "beach":2,
    "seaDistance":2,
    "theme":1,
-   "rating":"7,90",
+   "rating":"7,9",
    "price":26909
  },
  {
@@ -256,7 +256,7 @@
    "beach":1,
    "seaDistance":2,
    "theme":1,
-   "rating":"8,60",
+   "rating":"8,6",
    "price":22158
  },
  {
@@ -269,7 +269,7 @@
    "beach":1,
    "seaDistance":2,
    "theme":1,
-   "rating":"8,20",
+   "rating":"8,2",
    "price":31980
  },
  {
@@ -282,7 +282,7 @@
    "beach":1,
    "seaDistance":2,
    "theme":1,
-   "rating":"7,70",
+   "rating":"7,7",
    "price":35277
  },
  {
@@ -295,7 +295,7 @@
    "beach":1,
    "seaDistance":2,
    "theme":1,
-   "rating":"7,50",
+   "rating":"7,5",
    "price":29419
  },
  {
@@ -308,7 +308,7 @@
    "beach":1,
    "seaDistance":2,
    "theme":1,
-   "rating":"8,40",
+   "rating":"8,4",
    "price":26940
  },
  {
@@ -321,7 +321,7 @@
    "beach":1,
    "seaDistance":2,
    "theme":1,
-   "rating":"8,30",
+   "rating":"8,3",
    "price":26340
  },
  {
@@ -334,7 +334,7 @@
    "beach":1,
    "seaDistance":2,
    "theme":1,
-   "rating":"8,40",
+   "rating":"8,4",
    "price":50323
  },
  {
@@ -347,7 +347,7 @@
    "beach":1,
    "seaDistance":2,
    "theme":1,
-   "rating":"8,70",
+   "rating":"8,7",
    "price":29678
  },
  {
@@ -360,7 +360,7 @@
    "beach":1,
    "seaDistance":2,
    "theme":1,
-   "rating":"7,50",
+   "rating":"7,5",
    "price":36078
  },
  {
@@ -373,7 +373,7 @@
    "beach":1,
    "seaDistance":2,
    "theme":1,
-   "rating":"7,70",
+   "rating":"7,7",
    "price":38815
  },
  {
@@ -386,7 +386,7 @@
    "beach":2,
    "seaDistance":2,
    "theme":1,
-   "rating":"9,50",
+   "rating":"9,5",
    "price":52548
  },
  {
@@ -399,7 +399,7 @@
    "beach":1,
    "seaDistance":2,
    "theme":1,
-   "rating":"8,70",
+   "rating":"8,7",
    "price":32620
  },
  {
@@ -412,7 +412,7 @@
    "beach":1,
    "seaDistance":2,
    "theme":1,
-   "rating":"9,10",
+   "rating":"9,1",
    "price":52107
  },
  {
@@ -425,7 +425,7 @@
    "beach":2,
    "seaDistance":2,
    "theme":1,
-   "rating":"8,20",
+   "rating":"8,2",
    "price":20708
  },
  {
@@ -438,7 +438,7 @@
    "beach":1,
    "seaDistance":2,
    "theme":1,
-   "rating":"9,50",
+   "rating":"9,5",
    "price":42875
  },
  {
@@ -451,7 +451,7 @@
    "beach":1,
    "seaDistance":2,
    "theme":1,
-   "rating":"9,20",
+   "rating":"9,2",
    "price":79344
  },
  {
@@ -464,7 +464,7 @@
    "beach":1,
    "seaDistance":2,
    "theme":1,
-   "rating":"8,90",
+   "rating":"8,9",
    "price":37207
  },
  {
@@ -477,7 +477,7 @@
    "beach":1,
    "seaDistance":2,
    "theme":1,
-   "rating":"8,50",
+   "rating":"8,5",
    "price":46821
  },
  {
@@ -490,7 +490,7 @@
    "beach":1,
    "seaDistance":2,
    "theme":1,
-   "rating":"8,90",
+   "rating":"8,9",
    "price":90158
  },
  {
@@ -503,7 +503,7 @@
    "beach":1,
    "seaDistance":2,
    "theme":1,
-   "rating":"9,00",
+   "rating":"9",
    "price":40756
  },
  {
@@ -516,7 +516,7 @@
    "beach":1,
    "seaDistance":1,
    "theme":1,
-   "rating":"8,90",
+   "rating":"8,9",
    "price":72772
  },
  {
@@ -529,7 +529,7 @@
    "beach":1,
    "seaDistance":1,
    "theme":1,
-   "rating":"8,30",
+   "rating":"8,3",
    "price":36995
  },
  {
@@ -542,12 +542,12 @@
    "beach":1,
    "seaDistance":2,
    "theme":1,
-   "rating":"8,50",
+   "rating":"8,5",
    "price":34625
  },
  {
    "id":2401,
-   "title":"Iberostar Bouganville Playa�",
+   "title":"Iberostar Bouganville Playa ",
    "country":7,
    "hasChild":1,
    "budget":2,
@@ -555,7 +555,7 @@
    "beach":1,
    "seaDistance":2,
    "theme":1,
-   "rating":"8,20",
+   "rating":"8,2",
    "price":39633
  },
  {
@@ -568,7 +568,7 @@
    "beach":1,
    "seaDistance":2,
    "theme":1,
-   "rating":"7,90",
+   "rating":"7,9",
    "price":61558
  },
  {
@@ -581,7 +581,7 @@
    "beach":1,
    "seaDistance":2,
    "theme":1,
-   "rating":"8,40",
+   "rating":"8,4",
    "price":33503
  },
  {
@@ -594,7 +594,7 @@
    "beach":1,
    "seaDistance":2,
    "theme":1,
-   "rating":"8,10",
+   "rating":"8,1",
    "price":36594
  },
  {
@@ -607,7 +607,7 @@
    "beach":1,
    "seaDistance":2,
    "theme":1,
-   "rating":"7,70",
+   "rating":"7,7",
    "price":35523
  },
  {
@@ -620,7 +620,7 @@
    "beach":1,
    "seaDistance":2,
    "theme":1,
-   "rating":"8,10",
+   "rating":"8,1",
    "price":47179
  },
  {
@@ -633,7 +633,7 @@
    "beach":1,
    "seaDistance":1,
    "theme":1,
-   "rating":"9,40",
+   "rating":"9,4",
    "price":86526
  },
  {
@@ -646,7 +646,7 @@
    "beach":1,
    "seaDistance":2,
    "theme":1,
-   "rating":"9,60",
+   "rating":"9,6",
    "price":30311
  },
  {
@@ -659,7 +659,7 @@
    "beach":1,
    "seaDistance":2,
    "theme":1,
-   "rating":"7,90",
+   "rating":"7,9",
    "price":43149
  },
  {
@@ -672,7 +672,7 @@
    "beach":1,
    "seaDistance":2,
    "theme":1,
-   "rating":"8,60",
+   "rating":"8,6",
    "price":30562
  },
  {
@@ -685,7 +685,7 @@
    "beach":1,
    "seaDistance":1,
    "theme":1,
-   "rating":"9,50",
+   "rating":"9,5",
    "price":145974
  },
  {
@@ -698,7 +698,7 @@
    "beach":1,
    "seaDistance":1,
    "theme":1,
-   "rating":"7,60",
+   "rating":"7,6",
    "price":34966
  },
  {
@@ -711,7 +711,7 @@
    "beach":1,
    "seaDistance":1,
    "theme":1,
-   "rating":"9,30",
+   "rating":"9,3",
    "price":35536
  },
  {
@@ -724,12 +724,12 @@
    "beach":1,
    "seaDistance":2,
    "theme":1,
-   "rating":"7,40",
+   "rating":"7,4",
    "price":26165
  },
  {
    "id":2626,
-   "title":"Dionysos �entral Hotel",
+   "title":"Dionysos Сentral Hotel",
    "country":6,
    "hasChild":1,
    "budget":2,
@@ -737,7 +737,7 @@
    "beach":2,
    "seaDistance":2,
    "theme":1,
-   "rating":"8,80",
+   "rating":"8,8",
    "price":40536
  },
  {
@@ -750,7 +750,7 @@
    "beach":1,
    "seaDistance":2,
    "theme":1,
-   "rating":"7,70",
+   "rating":"7,7",
    "price":44684
  },
  {
@@ -763,7 +763,7 @@
    "beach":1,
    "seaDistance":2,
    "theme":1,
-   "rating":"8,90",
+   "rating":"8,9",
    "price":53593
  },
  {
@@ -776,7 +776,7 @@
    "beach":2,
    "seaDistance":2,
    "theme":1,
-   "rating":"7,90",
+   "rating":"7,9",
    "price":47623
  },
  {
@@ -789,12 +789,12 @@
    "beach":1,
    "seaDistance":2,
    "theme":1,
-   "rating":"8,80",
+   "rating":"8,8",
    "price":49876
  },
  {
    "id":2973,
-   "title":"Montenegro Beach Resort�",
+   "title":"Montenegro Beach Resort ",
    "country":5,
    "hasChild":1,
    "budget":3,
@@ -802,7 +802,7 @@
    "beach":1,
    "seaDistance":2,
    "theme":1,
-   "rating":"8,50",
+   "rating":"8,5",
    "price":62135
  },
  {
@@ -815,7 +815,7 @@
    "beach":1,
    "seaDistance":2,
    "theme":1,
-   "rating":"9,30",
+   "rating":"9,3",
    "price":57711
  },
  {
@@ -828,7 +828,7 @@
    "beach":1,
    "seaDistance":2,
    "theme":1,
-   "rating":"7,50",
+   "rating":"7,5",
    "price":55776
  },
  {
@@ -841,7 +841,7 @@
    "beach":1,
    "seaDistance":2,
    "theme":1,
-   "rating":"8,40",
+   "rating":"8,4",
    "price":46771
  },
  {
@@ -854,7 +854,7 @@
    "beach":1,
    "seaDistance":2,
    "theme":1,
-   "rating":"8,10",
+   "rating":"8,1",
    "price":26447
  },
  {
@@ -867,7 +867,7 @@
    "beach":1,
    "seaDistance":1,
    "theme":1,
-   "rating":"9,20",
+   "rating":"9,2",
    "price":37271
  },
  {
@@ -880,7 +880,7 @@
    "beach":1,
    "seaDistance":2,
    "theme":1,
-   "rating":"8,00",
+   "rating":"8",
    "price":17576
  },
  {
@@ -893,7 +893,7 @@
    "beach":1,
    "seaDistance":2,
    "theme":1,
-   "rating":"8,10",
+   "rating":"8,1",
    "price":38167
  },
  {
@@ -906,7 +906,7 @@
    "beach":1,
    "seaDistance":2,
    "theme":1,
-   "rating":"7,90",
+   "rating":"7,9",
    "price":24504
  },
  {
@@ -919,7 +919,7 @@
    "beach":1,
    "seaDistance":2,
    "theme":1,
-   "rating":"8,70",
+   "rating":"8,7",
    "price":24198
  },
  {
@@ -932,7 +932,7 @@
    "beach":1,
    "seaDistance":1,
    "theme":1,
-   "rating":"9,00",
+   "rating":"9",
    "price":44301
  },
  {
@@ -945,7 +945,7 @@
    "beach":1,
    "seaDistance":1,
    "theme":1,
-   "rating":"8,40",
+   "rating":"8,4",
    "price":18272
  },
  {
@@ -958,7 +958,7 @@
    "beach":1,
    "seaDistance":2,
    "theme":1,
-   "rating":"7,20",
+   "rating":"7,2",
    "price":19164
  },
  {
@@ -971,7 +971,7 @@
    "beach":1,
    "seaDistance":2,
    "theme":1,
-   "rating":"8,40",
+   "rating":"8,4",
    "price":31715
  },
  {
@@ -984,7 +984,7 @@
    "beach":1,
    "seaDistance":2,
    "theme":1,
-   "rating":"7,90",
+   "rating":"7,9",
    "price":28166
  },
  {
@@ -997,7 +997,7 @@
    "beach":2,
    "seaDistance":2,
    "theme":1,
-   "rating":"7,70",
+   "rating":"7,7",
    "price":28283
  },
  {
@@ -1010,7 +1010,7 @@
    "beach":1,
    "seaDistance":2,
    "theme":1,
-   "rating":"7,60",
+   "rating":"7,6",
    "price":20814
  },
  {
@@ -1023,7 +1023,7 @@
    "beach":1,
    "seaDistance":2,
    "theme":1,
-   "rating":"8,60",
+   "rating":"8,6",
    "price":22720
  },
  {
@@ -1036,7 +1036,7 @@
    "beach":1,
    "seaDistance":2,
    "theme":1,
-   "rating":"8,60",
+   "rating":"8,6",
    "price":26804
  },
  {
@@ -1049,7 +1049,7 @@
    "beach":1,
    "seaDistance":2,
    "theme":1,
-   "rating":"8,10",
+   "rating":"8,1",
    "price":31092
  },
  {
@@ -1062,7 +1062,7 @@
    "beach":1,
    "seaDistance":2,
    "theme":1,
-   "rating":"8,30",
+   "rating":"8,3",
    "price":31154
  },
  {
@@ -1075,7 +1075,7 @@
    "beach":1,
    "seaDistance":2,
    "theme":1,
-   "rating":"8,80",
+   "rating":"8,8",
    "price":24496
  },
  {
@@ -1088,7 +1088,7 @@
    "beach":1,
    "seaDistance":1,
    "theme":1,
-   "rating":"7,40",
+   "rating":"7,4",
    "price":37670
  },
  {
@@ -1101,7 +1101,7 @@
    "beach":1,
    "seaDistance":1,
    "theme":1,
-   "rating":"8,10",
+   "rating":"8,1",
    "price":46374
  },
  {
@@ -1114,7 +1114,7 @@
    "beach":1,
    "seaDistance":2,
    "theme":1,
-   "rating":"7,10",
+   "rating":"7,1",
    "price":25223
  },
  {
@@ -1127,7 +1127,7 @@
    "beach":1,
    "seaDistance":1,
    "theme":1,
-   "rating":"8,20",
+   "rating":"8,2",
    "price":24809
  },
  {
@@ -1140,7 +1140,7 @@
    "beach":1,
    "seaDistance":2,
    "theme":1,
-   "rating":"7,40",
+   "rating":"7,4",
    "price":26551
  },
  {
@@ -1153,7 +1153,7 @@
    "beach":1,
    "seaDistance":1,
    "theme":1,
-   "rating":"8,70",
+   "rating":"8,7",
    "price":40003
  },
  {
@@ -1166,7 +1166,7 @@
    "beach":1,
    "seaDistance":1,
    "theme":1,
-   "rating":"8,50",
+   "rating":"8,5",
    "price":36112
  },
  {
@@ -1179,7 +1179,7 @@
    "beach":1,
    "seaDistance":1,
    "theme":1,
-   "rating":"7,60",
+   "rating":"7,6",
    "price":30413
  },
  {
@@ -1192,7 +1192,7 @@
    "beach":1,
    "seaDistance":2,
    "theme":1,
-   "rating":"7,90",
+   "rating":"7,9",
    "price":31827
  },
  {
@@ -1205,7 +1205,7 @@
    "beach":1,
    "seaDistance":2,
    "theme":1,
-   "rating":"7,20",
+   "rating":"7,2",
    "price":31882
  },
  {
@@ -1218,12 +1218,12 @@
    "beach":1,
    "seaDistance":1,
    "theme":1,
-   "rating":"7,30",
+   "rating":"7,3",
    "price":42665
  },
  {
    "id":6743,
-   "title":"1001 ����",
+   "title":"1001 Ночь",
    "country":1,
    "hasChild":1,
    "budget":2,
@@ -1231,12 +1231,12 @@
    "beach":2,
    "seaDistance":2,
    "theme":1,
-   "rating":"8,80",
+   "rating":"8,8",
    "price":38118
  },
  {
    "id":6779,
-   "title":"��-�����",
+   "title":"Ай-Петри",
    "country":1,
    "hasChild":1,
    "budget":1,
@@ -1244,12 +1244,12 @@
    "beach":2,
    "seaDistance":1,
    "theme":1,
-   "rating":"7,50",
+   "rating":"7,5",
    "price":18165
  },
  {
    "id":6782,
-   "title":"��������� ��-�����-��",
+   "title":"Пансионат Ай-Тодор-Юг",
    "country":1,
    "hasChild":1,
    "budget":1,
@@ -1257,12 +1257,12 @@
    "beach":2,
    "seaDistance":2,
    "theme":1,
-   "rating":"8,40",
+   "rating":"8,4",
    "price":10415
  },
  {
    "id":6813,
-   "title":"���������",
+   "title":"Амстердам",
    "country":1,
    "hasChild":1,
    "budget":1,
@@ -1270,12 +1270,12 @@
    "beach":2,
    "seaDistance":2,
    "theme":1,
-   "rating":"9,00",
+   "rating":"9",
    "price":10726
  },
  {
    "id":6830,
-   "title":"����� � ��� ���������",
+   "title":"Отель и СПА Аквамарин",
    "country":1,
    "hasChild":1,
    "budget":1,
@@ -1283,12 +1283,12 @@
    "beach":1,
    "seaDistance":2,
    "theme":1,
-   "rating":"8,30",
+   "rating":"8,3",
    "price":13833
  },
  {
    "id":6852,
-   "title":"������",
+   "title":"Атлант",
    "country":1,
    "hasChild":1,
    "budget":1,
@@ -1296,7 +1296,7 @@
    "beach":2,
    "seaDistance":2,
    "theme":1,
-   "rating":"8,50",
+   "rating":"8,5",
    "price":22344
  },
  {
@@ -1309,12 +1309,12 @@
    "beach":2,
    "seaDistance":2,
    "theme":1,
-   "rating":"8,80",
+   "rating":"8,8",
    "price":44391
  },
  {
    "id":6977,
-   "title":"�������� ����",
+   "title":"Крымские Зори",
    "country":1,
    "hasChild":1,
    "budget":1,
@@ -1322,7 +1322,7 @@
    "beach":2,
    "seaDistance":2,
    "theme":1,
-   "rating":"7,60",
+   "rating":"7,6",
    "price":10036
  },
  {
@@ -1335,12 +1335,12 @@
    "beach":2,
    "seaDistance":2,
    "theme":1,
-   "rating":"9,30",
+   "rating":"9,3",
    "price":33007
  },
  {
    "id":7101,
-   "title":"��� ��������",
+   "title":"ТОК Горизонт",
    "country":1,
    "hasChild":1,
    "budget":1,
@@ -1348,7 +1348,7 @@
    "beach":1,
    "seaDistance":2,
    "theme":1,
-   "rating":"7,60",
+   "rating":"7,6",
    "price":11280
  },
  {
@@ -1361,12 +1361,12 @@
    "beach":2,
    "seaDistance":2,
    "theme":1,
-   "rating":"7,70",
+   "rating":"7,7",
    "price":11387
  },
  {
    "id":7168,
-   "title":"���� ������",
+   "title":"Алые Паруса",
    "country":1,
    "hasChild":1,
    "budget":3,
@@ -1374,12 +1374,12 @@
    "beach":2,
    "seaDistance":1,
    "theme":1,
-   "rating":"8,80",
+   "rating":"8,8",
    "price":54487
  },
  {
    "id":7323,
-   "title":"��������� ��������",
+   "title":"Пансионат Ласточка",
    "country":1,
    "hasChild":1,
    "budget":1,
@@ -1387,12 +1387,12 @@
    "beach":1,
    "seaDistance":2,
    "theme":1,
-   "rating":"8,60",
+   "rating":"8,6",
    "price":12400
  },
  {
    "id":7367,
-   "title":"�������",
+   "title":"Марикон",
    "country":1,
    "hasChild":1,
    "budget":1,
@@ -1400,12 +1400,12 @@
    "beach":1,
    "seaDistance":2,
    "theme":1,
-   "rating":"9,20",
+   "rating":"9,2",
    "price":14040
  },
  {
    "id":7425,
-   "title":"������",
+   "title":"Муссон",
    "country":1,
    "hasChild":1,
    "budget":1,
@@ -1413,12 +1413,12 @@
    "beach":2,
    "seaDistance":2,
    "theme":1,
-   "rating":"8,20",
+   "rating":"8,2",
    "price":12000
  },
  {
    "id":7575,
-   "title":"���� ��������",
+   "title":"ТОСК Приморье",
    "country":1,
    "hasChild":1,
    "budget":1,
@@ -1426,12 +1426,12 @@
    "beach":2,
    "seaDistance":1,
    "theme":1,
-   "rating":"7,70",
+   "rating":"7,7",
    "price":23904
  },
  {
    "id":7578,
-   "title":"�������� ����",
+   "title":"Прометей Клуб",
    "country":1,
    "hasChild":1,
    "budget":2,
@@ -1439,7 +1439,7 @@
    "beach":2,
    "seaDistance":2,
    "theme":1,
-   "rating":"8,70",
+   "rating":"8,7",
    "price":43114
  },
  {
@@ -1452,7 +1452,7 @@
    "beach":1,
    "seaDistance":1,
    "theme":1,
-   "rating":"7,70",
+   "rating":"7,7",
    "price":21699
  },
  {
@@ -1465,12 +1465,12 @@
    "beach":2,
    "seaDistance":2,
    "theme":1,
-   "rating":"8,60",
+   "rating":"8,6",
    "price":51132
  },
  {
    "id":7710,
-   "title":"��������������-�������� ����� ��������",
+   "title":"Оздоровительно-лечебный центр Северный",
    "country":1,
    "hasChild":1,
    "budget":2,
@@ -1478,12 +1478,12 @@
    "beach":1,
    "seaDistance":2,
    "theme":1,
-   "rating":"7,30",
+   "rating":"7,3",
    "price":37944
  },
  {
    "id":7727,
-   "title":"������� ������",
+   "title":"Коттедж Сказка",
    "country":1,
    "hasChild":1,
    "budget":1,
@@ -1491,12 +1491,12 @@
    "beach":1,
    "seaDistance":2,
    "theme":1,
-   "rating":"7,60",
+   "rating":"7,6",
    "price":5400
  },
  {
    "id":7766,
-   "title":"������ �����",
+   "title":"Старый город",
    "country":1,
    "hasChild":1,
    "budget":1,
@@ -1504,12 +1504,12 @@
    "beach":2,
    "seaDistance":2,
    "theme":1,
-   "rating":"9,00",
+   "rating":"9",
    "price":23815
  },
  {
    "id":7825,
-   "title":"��������� ����",
+   "title":"Пансионат Урал",
    "country":1,
    "hasChild":1,
    "budget":2,
@@ -1517,12 +1517,12 @@
    "beach":1,
    "seaDistance":2,
    "theme":1,
-   "rating":"8,80",
+   "rating":"8,8",
    "price":47707
  },
  {
    "id":7903,
-   "title":"����������� �������� ������� ���",
+   "title":"Гостиничный комплекс Зеленый Мыс",
    "country":1,
    "hasChild":1,
    "budget":1,
@@ -1530,12 +1530,12 @@
    "beach":1,
    "seaDistance":1,
    "theme":1,
-   "rating":"8,30",
+   "rating":"8,3",
    "price":20010
  },
  {
    "id":8125,
-   "title":"�������",
+   "title":"Альмира",
    "country":1,
    "hasChild":1,
    "budget":1,
@@ -1543,12 +1543,12 @@
    "beach":2,
    "seaDistance":2,
    "theme":1,
-   "rating":"9,40",
+   "rating":"9,4",
    "price":23231
  },
  {
    "id":8255,
-   "title":"������� ����� ������",
+   "title":"Ателика Гранд Прибой",
    "country":1,
    "hasChild":1,
    "budget":2,
@@ -1556,12 +1556,12 @@
    "beach":1,
    "seaDistance":2,
    "theme":1,
-   "rating":"9,00",
+   "rating":"9",
    "price":39911
  },
  {
    "id":8256,
-   "title":"������� �������",
+   "title":"Ателика Таврида",
    "country":1,
    "hasChild":1,
    "budget":1,
@@ -1569,12 +1569,12 @@
    "beach":1,
    "seaDistance":2,
    "theme":1,
-   "rating":"8,20",
+   "rating":"8,2",
    "price":20951
  },
  {
    "id":8262,
-   "title":"��������",
+   "title":"Атлантик",
    "country":1,
    "hasChild":1,
    "budget":2,
@@ -1582,12 +1582,12 @@
    "beach":1,
    "seaDistance":1,
    "theme":1,
-   "rating":"7,20",
+   "rating":"7,2",
    "price":31146
  },
  {
    "id":8356,
-   "title":"��������� ������ ������ �����",
+   "title":"Бархатные Сезоны Чистые Пруды",
    "country":1,
    "hasChild":1,
    "budget":1,
@@ -1595,12 +1595,12 @@
    "beach":2,
    "seaDistance":2,
    "theme":1,
-   "rating":"7,70",
+   "rating":"7,7",
    "price":16296
  },
  {
    "id":8357,
-   "title":"�������",
+   "title":"Бастион",
    "country":1,
    "hasChild":1,
    "budget":1,
@@ -1608,12 +1608,12 @@
    "beach":2,
    "seaDistance":2,
    "theme":1,
-   "rating":"8,30",
+   "rating":"8,3",
    "price":10363
  },
  {
    "id":8481,
-   "title":"��������",
+   "title":"Бристоль",
    "country":1,
    "hasChild":1,
    "budget":1,
@@ -1621,12 +1621,12 @@
    "beach":2,
    "seaDistance":2,
    "theme":1,
-   "rating":"9,00",
+   "rating":"9",
    "price":21657
  },
  {
    "id":8797,
-   "title":"��������� ������� �����",
+   "title":"Санаторий Голубая волна",
    "country":1,
    "hasChild":1,
    "budget":2,
@@ -1634,12 +1634,12 @@
    "beach":2,
    "seaDistance":2,
    "theme":1,
-   "rating":"8,50",
+   "rating":"8,5",
    "price":36536
  },
  {
    "id":8823,
-   "title":"������ ������",
+   "title":"Горный воздух",
    "country":1,
    "hasChild":1,
    "budget":2,
@@ -1647,12 +1647,12 @@
    "beach":1,
    "seaDistance":1,
    "theme":1,
-   "rating":"7,70",
+   "rating":"7,7",
    "price":26327
  },
  {
    "id":8911,
-   "title":"�������",
+   "title":"Дагомыс",
    "country":1,
    "hasChild":1,
    "budget":1,
@@ -1660,12 +1660,12 @@
    "beach":2,
    "seaDistance":2,
    "theme":1,
-   "rating":"7,70",
+   "rating":"7,7",
    "price":23100
  },
  {
    "id":8944,
-   "title":"��������� �������",
+   "title":"Пансионат ДельКон",
    "country":1,
    "hasChild":1,
    "budget":1,
@@ -1673,12 +1673,12 @@
    "beach":1,
    "seaDistance":2,
    "theme":1,
-   "rating":"7,80",
+   "rating":"7,8",
    "price":15048
  },
  {
    "id":8948,
-   "title":"��������� �������",
+   "title":"Пансионат Дельфин",
    "country":1,
    "hasChild":1,
    "budget":1,
@@ -1686,12 +1686,12 @@
    "beach":2,
    "seaDistance":2,
    "theme":1,
-   "rating":"7,40",
+   "rating":"7,4",
    "price":14794
  },
  {
    "id":8954,
-   "title":"��������",
+   "title":"Демерджи",
    "country":1,
    "hasChild":1,
    "budget":2,
@@ -1699,12 +1699,12 @@
    "beach":2,
    "seaDistance":2,
    "theme":1,
-   "rating":"8,50",
+   "rating":"8,5",
    "price":39626
  },
  {
    "id":9134,
-   "title":"��������� ����",
+   "title":"Жемчужина моря",
    "country":1,
    "hasChild":1,
    "budget":2,
@@ -1712,12 +1712,12 @@
    "beach":1,
    "seaDistance":1,
    "theme":1,
-   "rating":"8,20",
+   "rating":"8,2",
    "price":26327
  },
  {
    "id":9139,
-   "title":"����� ����� ���������",
+   "title":"Гранд Отель Жемчужина",
    "country":1,
    "hasChild":1,
    "budget":1,
@@ -1725,12 +1725,12 @@
    "beach":2,
    "seaDistance":1,
    "theme":1,
-   "rating":"9,00",
+   "rating":"9",
    "price":25679
  },
  {
    "id":9176,
-   "title":"�����",
+   "title":"Замок",
    "country":1,
    "hasChild":1,
    "budget":1,
@@ -1738,12 +1738,12 @@
    "beach":2,
    "seaDistance":2,
    "theme":1,
-   "rating":"9,20",
+   "rating":"9,2",
    "price":14079
  },
  {
    "id":9218,
-   "title":"��������� ��������",
+   "title":"Пансионат Звездный",
    "country":1,
    "hasChild":1,
    "budget":1,
@@ -1751,12 +1751,12 @@
    "beach":1,
    "seaDistance":2,
    "theme":1,
-   "rating":"8,40",
+   "rating":"8,4",
    "price":16310
  },
  {
    "id":9372,
-   "title":"���������-��������������� �������� �������",
+   "title":"Санаторно-оздоровительный комплекс Империя",
    "country":1,
    "hasChild":1,
    "budget":2,
@@ -1764,12 +1764,12 @@
    "beach":1,
    "seaDistance":1,
    "theme":1,
-   "rating":"8,70",
+   "rating":"8,7",
    "price":42467
  },
  {
    "id":9443,
-   "title":"������",
+   "title":"Каисса",
    "country":1,
    "hasChild":1,
    "budget":1,
@@ -1777,12 +1777,12 @@
    "beach":2,
    "seaDistance":2,
    "theme":1,
-   "rating":"7,80",
+   "rating":"7,8",
    "price":9800
  },
  {
    "id":9647,
-   "title":"��������� ������� �����",
+   "title":"Санаторий Красная Талка",
    "country":1,
    "hasChild":1,
    "budget":1,
@@ -1790,12 +1790,12 @@
    "beach":1,
    "seaDistance":1,
    "theme":1,
-   "rating":"7,30",
+   "rating":"7,3",
    "price":17496
  },
  {
    "id":9710,
-   "title":"��������� ������",
+   "title":"Пансионат Кубань",
    "country":1,
    "hasChild":1,
    "budget":1,
@@ -1803,12 +1803,12 @@
    "beach":2,
    "seaDistance":2,
    "theme":1,
-   "rating":"7,40",
+   "rating":"7,4",
    "price":15650
  },
  {
    "id":9744,
-   "title":"������",
+   "title":"Лагуна",
    "country":1,
    "hasChild":1,
    "budget":1,
@@ -1816,12 +1816,12 @@
    "beach":1,
    "seaDistance":1,
    "theme":1,
-   "rating":"7,80",
+   "rating":"7,8",
    "price":20356
  },
  {
    "id":9912,
-   "title":"���������",
+   "title":"Маджестик",
    "country":1,
    "hasChild":1,
    "budget":2,
@@ -1829,12 +1829,12 @@
    "beach":2,
    "seaDistance":2,
    "theme":1,
-   "rating":"7,70",
+   "rating":"7,7",
    "price":39337
  },
  {
    "id":9922,
-   "title":"��������� ����� �����",
+   "title":"Санаторий Малая Бухта",
    "country":1,
    "hasChild":1,
    "budget":1,
@@ -1842,12 +1842,12 @@
    "beach":2,
    "seaDistance":2,
    "theme":1,
-   "rating":"7,10",
+   "rating":"7,1",
    "price":16116
  },
  {
    "id":10140,
-   "title":"���� ������",
+   "title":"Мрия Резорт",
    "country":1,
    "hasChild":1,
    "budget":3,
@@ -1855,12 +1855,12 @@
    "beach":2,
    "seaDistance":1,
    "theme":1,
-   "rating":"7,20",
+   "rating":"7,2",
    "price":80569
  },
  {
    "id":10208,
-   "title":"������� �����",
+   "title":"Ателика Небуг",
    "country":1,
    "hasChild":1,
    "budget":1,
@@ -1868,12 +1868,12 @@
    "beach":2,
    "seaDistance":1,
    "theme":1,
-   "rating":"7,10",
+   "rating":"7,1",
    "price":12064
  },
  {
    "id":10265,
-   "title":"����",
+   "title":"Норд",
    "country":1,
    "hasChild":1,
    "budget":1,
@@ -1881,12 +1881,12 @@
    "beach":2,
    "seaDistance":2,
    "theme":1,
-   "rating":"9,40",
+   "rating":"9,4",
    "price":14853
  },
  {
    "id":10410,
-   "title":"�����",
+   "title":"Парус",
    "country":1,
    "hasChild":1,
    "budget":1,
@@ -1894,12 +1894,12 @@
    "beach":2,
    "seaDistance":1,
    "theme":1,
-   "rating":"7,70",
+   "rating":"7,7",
    "price":15525
  },
  {
    "id":10414,
-   "title":"����-��������",
+   "title":"Ялта-Интурист",
    "country":1,
    "hasChild":1,
    "budget":2,
@@ -1907,12 +1907,12 @@
    "beach":2,
    "seaDistance":1,
    "theme":1,
-   "rating":"8,50",
+   "rating":"8,5",
    "price":32698
  },
  {
    "id":10415,
-   "title":"������������",
+   "title":"Имеретинский",
    "country":1,
    "hasChild":1,
    "budget":1,
@@ -1920,12 +1920,12 @@
    "beach":2,
    "seaDistance":1,
    "theme":1,
-   "rating":"8,20",
+   "rating":"8,2",
    "price":16848
  },
  {
    "id":10435,
-   "title":"��������� ���������",
+   "title":"Гостиница Охтинская",
    "country":1,
    "hasChild":1,
    "budget":1,
@@ -1933,12 +1933,12 @@
    "beach":2,
    "seaDistance":2,
    "theme":1,
-   "rating":"7,90",
+   "rating":"7,9",
    "price":5811
  },
  {
    "id":10453,
-   "title":"��������� ����������",
+   "title":"Пансионат Бригантина",
    "country":1,
    "hasChild":1,
    "budget":1,
@@ -1946,12 +1946,12 @@
    "beach":1,
    "seaDistance":2,
    "theme":1,
-   "rating":"8,00",
+   "rating":"8",
    "price":10565
  },
  {
    "id":10642,
-   "title":"��������� ����������� �����",
+   "title":"Пансионат Приветливый берег",
    "country":1,
    "hasChild":1,
    "budget":1,
@@ -1959,12 +1959,12 @@
    "beach":2,
    "seaDistance":2,
    "theme":1,
-   "rating":"7,10",
+   "rating":"7,1",
    "price":17329
  },
  {
    "id":10662,
-   "title":"�������� SPA Hotel & Wellness",
+   "title":"Приморье SPA Hotel & Wellness",
    "country":1,
    "hasChild":1,
    "budget":2,
@@ -1972,12 +1972,12 @@
    "beach":2,
    "seaDistance":1,
    "theme":1,
-   "rating":"7,80",
+   "rating":"7,8",
    "price":28441
  },
  {
    "id":10765,
-   "title":"�����",
+   "title":"Риека",
    "country":1,
    "hasChild":1,
    "budget":1,
@@ -1985,12 +1985,12 @@
    "beach":1,
    "seaDistance":2,
    "theme":1,
-   "rating":"7,60",
+   "rating":"7,6",
    "price":9151
  },
  {
    "id":11071,
-   "title":"��� ���������",
+   "title":"ЛОК Солнечная",
    "country":1,
    "hasChild":1,
    "budget":1,
@@ -1998,12 +1998,12 @@
    "beach":2,
    "seaDistance":1,
    "theme":1,
-   "rating":"8,60",
+   "rating":"8,6",
    "price":16150
  },
  {
    "id":11111,
-   "title":"��������� �������� ����",
+   "title":"Пансионат Сосновая Роща",
    "country":1,
    "hasChild":1,
    "budget":2,
@@ -2011,12 +2011,12 @@
    "beach":2,
    "seaDistance":2,
    "theme":1,
-   "rating":"7,70",
+   "rating":"7,7",
    "price":27398
  },
  {
    "id":11136,
-   "title":"���� ���� SPA-�����",
+   "title":"Сочи Бриз SPA-Отель",
    "country":1,
    "hasChild":1,
    "budget":2,
@@ -2024,12 +2024,12 @@
    "beach":2,
    "seaDistance":2,
    "theme":1,
-   "rating":"8,50",
+   "rating":"8,5",
    "price":28251
  },
  {
    "id":11177,
-   "title":"��������� �����",
+   "title":"Старинная Анапа",
    "country":1,
    "hasChild":1,
    "budget":3,
@@ -2037,12 +2037,12 @@
    "beach":1,
    "seaDistance":1,
    "theme":1,
-   "rating":"7,50",
+   "rating":"7,5",
    "price":50150
  },
  {
    "id":11186,
-   "title":"������ ������",
+   "title":"Старый доктор",
    "country":1,
    "hasChild":1,
    "budget":1,
@@ -2050,12 +2050,12 @@
    "beach":1,
    "seaDistance":2,
    "theme":1,
-   "rating":"7,90",
+   "rating":"7,9",
    "price":9850
  },
  {
    "id":11503,
-   "title":"��������",
+   "title":"Феодосия",
    "country":1,
    "hasChild":1,
    "budget":1,
@@ -2063,12 +2063,12 @@
    "beach":1,
    "seaDistance":2,
    "theme":1,
-   "rating":"9,60",
+   "rating":"9,6",
    "price":14035
  },
  {
    "id":11567,
-   "title":"�������� �������� �������",
+   "title":"Гостевой комплекс Хуторок",
    "country":1,
    "hasChild":1,
    "budget":1,
@@ -2076,12 +2076,12 @@
    "beach":1,
    "seaDistance":2,
    "theme":1,
-   "rating":"9,20",
+   "rating":"9,2",
    "price":19879
  },
  {
    "id":11688,
-   "title":"��������� ������",
+   "title":"Пансионат Шексна",
    "country":1,
    "hasChild":1,
    "budget":1,
@@ -2089,12 +2089,12 @@
    "beach":2,
    "seaDistance":2,
    "theme":1,
-   "rating":"8,50",
+   "rating":"8,5",
    "price":22823
  },
  {
    "id":11724,
-   "title":"������ �����",
+   "title":"Экодом Адлер",
    "country":1,
    "hasChild":1,
    "budget":1,
@@ -2102,12 +2102,12 @@
    "beach":2,
    "seaDistance":2,
    "theme":1,
-   "rating":"7,20",
+   "rating":"7,2",
    "price":14399
  },
  {
    "id":11810,
-   "title":"����� ����",
+   "title":"Южная ночь",
    "country":1,
    "hasChild":1,
    "budget":1,
@@ -2115,12 +2115,12 @@
    "beach":2,
    "seaDistance":2,
    "theme":1,
-   "rating":"7,60",
+   "rating":"7,6",
    "price":16767
  },
  {
    "id":11814,
-   "title":"��������� ����� �������",
+   "title":"Санаторий Южное Взморье",
    "country":1,
    "hasChild":1,
    "budget":2,
@@ -2128,7 +2128,7 @@
    "beach":2,
    "seaDistance":2,
    "theme":1,
-   "rating":"8,00",
+   "rating":"8",
    "price":41868
  },
  {
@@ -2141,7 +2141,7 @@
    "beach":1,
    "seaDistance":2,
    "theme":1,
-   "rating":"8,40",
+   "rating":"8,4",
    "price":42654
  },
  {
@@ -2154,7 +2154,7 @@
    "beach":1,
    "seaDistance":2,
    "theme":1,
-   "rating":"8,80",
+   "rating":"8,8",
    "price":36305
  },
  {
@@ -2167,7 +2167,7 @@
    "beach":1,
    "seaDistance":1,
    "theme":1,
-   "rating":"8,40",
+   "rating":"8,4",
    "price":40829
  },
  {
@@ -2180,7 +2180,7 @@
    "beach":1,
    "seaDistance":1,
    "theme":1,
-   "rating":"7,80",
+   "rating":"7,8",
    "price":30990
  },
  {
@@ -2193,7 +2193,7 @@
    "beach":1,
    "seaDistance":1,
    "theme":1,
-   "rating":"8,80",
+   "rating":"8,8",
    "price":44329
  },
  {
@@ -2206,7 +2206,7 @@
    "beach":1,
    "seaDistance":2,
    "theme":1,
-   "rating":"8,20",
+   "rating":"8,2",
    "price":30559
  },
  {
@@ -2219,7 +2219,7 @@
    "beach":1,
    "seaDistance":2,
    "theme":1,
-   "rating":"7,90",
+   "rating":"7,9",
    "price":32360
  },
  {
@@ -2232,7 +2232,7 @@
    "beach":1,
    "seaDistance":2,
    "theme":1,
-   "rating":"7,50",
+   "rating":"7,5",
    "price":33965
  },
  {
@@ -2245,7 +2245,7 @@
    "beach":1,
    "seaDistance":2,
    "theme":1,
-   "rating":"8,60",
+   "rating":"8,6",
    "price":67788
  },
  {
@@ -2258,7 +2258,7 @@
    "beach":1,
    "seaDistance":1,
    "theme":1,
-   "rating":"7,90",
+   "rating":"7,9",
    "price":32857
  },
  {
@@ -2271,7 +2271,7 @@
    "beach":1,
    "seaDistance":1,
    "theme":1,
-   "rating":"9,20",
+   "rating":"9,2",
    "price":37917
  },
  {
@@ -2284,7 +2284,7 @@
    "beach":1,
    "seaDistance":2,
    "theme":1,
-   "rating":"8,50",
+   "rating":"8,5",
    "price":25954
  },
  {
@@ -2297,7 +2297,7 @@
    "beach":1,
    "seaDistance":1,
    "theme":1,
-   "rating":"7,50",
+   "rating":"7,5",
    "price":30170
  },
  {
@@ -2310,7 +2310,7 @@
    "beach":1,
    "seaDistance":2,
    "theme":1,
-   "rating":"9,30",
+   "rating":"9,3",
    "price":84005
  },
  {
@@ -2323,7 +2323,7 @@
    "beach":1,
    "seaDistance":1,
    "theme":1,
-   "rating":"7,80",
+   "rating":"7,8",
    "price":30630
  },
  {
@@ -2336,7 +2336,7 @@
    "beach":1,
    "seaDistance":2,
    "theme":1,
-   "rating":"8,70",
+   "rating":"8,7",
    "price":32656
  },
  {
@@ -2349,7 +2349,7 @@
    "beach":1,
    "seaDistance":1,
    "theme":1,
-   "rating":"7,80",
+   "rating":"7,8",
    "price":30437
  },
  {
@@ -2362,7 +2362,7 @@
    "beach":1,
    "seaDistance":2,
    "theme":1,
-   "rating":"7,60",
+   "rating":"7,6",
    "price":30656
  },
  {
@@ -2375,12 +2375,12 @@
    "beach":2,
    "seaDistance":2,
    "theme":1,
-   "rating":"7,90",
+   "rating":"7,9",
    "price":10000
  },
  {
    "id":17469,
-   "title":"��������� ������ ��������������� ���",
+   "title":"Бархатные Сезоны Александровский Сад",
    "country":1,
    "hasChild":1,
    "budget":1,
@@ -2388,7 +2388,7 @@
    "beach":2,
    "seaDistance":2,
    "theme":1,
-   "rating":"7,30",
+   "rating":"7,3",
    "price":12755
  },
  {
@@ -2401,7 +2401,7 @@
    "beach":2,
    "seaDistance":2,
    "theme":1,
-   "rating":"8,40",
+   "rating":"8,4",
    "price":9394
  },
  {
@@ -2414,7 +2414,7 @@
    "beach":1,
    "seaDistance":2,
    "theme":1,
-   "rating":"8,10",
+   "rating":"8,1",
    "price":20143
  },
  {
@@ -2427,7 +2427,7 @@
    "beach":1,
    "seaDistance":1,
    "theme":1,
-   "rating":"8,50",
+   "rating":"8,5",
    "price":21109
  },
  {
@@ -2440,7 +2440,7 @@
    "beach":1,
    "seaDistance":1,
    "theme":1,
-   "rating":"7,90",
+   "rating":"7,9",
    "price":28679
  },
  {
@@ -2453,7 +2453,7 @@
    "beach":1,
    "seaDistance":2,
    "theme":1,
-   "rating":"8,10",
+   "rating":"8,1",
    "price":10546
  },
  {
@@ -2466,7 +2466,7 @@
    "beach":1,
    "seaDistance":2,
    "theme":1,
-   "rating":"8,10",
+   "rating":"8,1",
    "price":22832
  },
  {
@@ -2479,7 +2479,7 @@
    "beach":1,
    "seaDistance":1,
    "theme":1,
-   "rating":"7,10",
+   "rating":"7,1",
    "price":38684
  },
  {
@@ -2492,7 +2492,7 @@
    "beach":1,
    "seaDistance":2,
    "theme":1,
-   "rating":"7,60",
+   "rating":"7,6",
    "price":26206
  },
  {
@@ -2505,7 +2505,7 @@
    "beach":1,
    "seaDistance":2,
    "theme":1,
-   "rating":"7,10",
+   "rating":"7,1",
    "price":15898
  },
  {
@@ -2518,7 +2518,7 @@
    "beach":1,
    "seaDistance":1,
    "theme":1,
-   "rating":"7,70",
+   "rating":"7,7",
    "price":20868
  },
  {
@@ -2531,7 +2531,7 @@
    "beach":1,
    "seaDistance":2,
    "theme":1,
-   "rating":"8,30",
+   "rating":"8,3",
    "price":40554
  },
  {
@@ -2544,7 +2544,7 @@
    "beach":1,
    "seaDistance":2,
    "theme":1,
-   "rating":"7,20",
+   "rating":"7,2",
    "price":23672
  },
  {
@@ -2557,7 +2557,7 @@
    "beach":1,
    "seaDistance":2,
    "theme":1,
-   "rating":"8,40",
+   "rating":"8,4",
    "price":37830
  },
  {
@@ -2570,7 +2570,7 @@
    "beach":1,
    "seaDistance":1,
    "theme":1,
-   "rating":"8,50",
+   "rating":"8,5",
    "price":41732
  },
  {
@@ -2583,7 +2583,7 @@
    "beach":1,
    "seaDistance":2,
    "theme":1,
-   "rating":"7,60",
+   "rating":"7,6",
    "price":32559
  },
  {
@@ -2596,7 +2596,7 @@
    "beach":1,
    "seaDistance":2,
    "theme":1,
-   "rating":"8,20",
+   "rating":"8,2",
    "price":20117
  },
  {
@@ -2609,7 +2609,7 @@
    "beach":1,
    "seaDistance":2,
    "theme":1,
-   "rating":"8,10",
+   "rating":"8,1",
    "price":26913
  },
  {
@@ -2622,7 +2622,7 @@
    "beach":1,
    "seaDistance":2,
    "theme":1,
-   "rating":"9,40",
+   "rating":"9,4",
    "price":10566
  },
  {
@@ -2635,7 +2635,7 @@
    "beach":1,
    "seaDistance":2,
    "theme":1,
-   "rating":"9,50",
+   "rating":"9,5",
    "price":58650
  },
  {
@@ -2648,7 +2648,7 @@
    "beach":1,
    "seaDistance":2,
    "theme":1,
-   "rating":"7,30",
+   "rating":"7,3",
    "price":23271
  },
  {
@@ -2661,7 +2661,7 @@
    "beach":1,
    "seaDistance":1,
    "theme":1,
-   "rating":"9,30",
+   "rating":"9,3",
    "price":46046
  },
  {
@@ -2674,7 +2674,7 @@
    "beach":1,
    "seaDistance":2,
    "theme":1,
-   "rating":"7,60",
+   "rating":"7,6",
    "price":55685
  },
  {
@@ -2687,7 +2687,7 @@
    "beach":1,
    "seaDistance":2,
    "theme":1,
-   "rating":"8,20",
+   "rating":"8,2",
    "price":26073
  },
  {
@@ -2700,7 +2700,7 @@
    "beach":1,
    "seaDistance":1,
    "theme":1,
-   "rating":"8,60",
+   "rating":"8,6",
    "price":23759
  },
  {
@@ -2713,7 +2713,7 @@
    "beach":1,
    "seaDistance":2,
    "theme":1,
-   "rating":"8,20",
+   "rating":"8,2",
    "price":13484
  },
  {
@@ -2726,7 +2726,7 @@
    "beach":1,
    "seaDistance":2,
    "theme":1,
-   "rating":"7,90",
+   "rating":"7,9",
    "price":43596
  },
  {
@@ -2739,7 +2739,7 @@
    "beach":1,
    "seaDistance":2,
    "theme":1,
-   "rating":"8,90",
+   "rating":"8,9",
    "price":24773
  },
  {
@@ -2752,7 +2752,7 @@
    "beach":1,
    "seaDistance":1,
    "theme":1,
-   "rating":"7,70",
+   "rating":"7,7",
    "price":33655
  },
  {
@@ -2765,7 +2765,7 @@
    "beach":1,
    "seaDistance":2,
    "theme":1,
-   "rating":"8,10",
+   "rating":"8,1",
    "price":28075
  },
  {
@@ -2778,7 +2778,7 @@
    "beach":1,
    "seaDistance":2,
    "theme":1,
-   "rating":"7,40",
+   "rating":"7,4",
    "price":28769
  },
  {
@@ -2791,7 +2791,7 @@
    "beach":1,
    "seaDistance":2,
    "theme":1,
-   "rating":"8,30",
+   "rating":"8,3",
    "price":13069
  },
  {
@@ -2804,7 +2804,7 @@
    "beach":1,
    "seaDistance":2,
    "theme":1,
-   "rating":"7,80",
+   "rating":"7,8",
    "price":14615
  },
  {
@@ -2817,7 +2817,7 @@
    "beach":1,
    "seaDistance":2,
    "theme":1,
-   "rating":"8,50",
+   "rating":"8,5",
    "price":9999
  },
  {
@@ -2830,7 +2830,7 @@
    "beach":1,
    "seaDistance":1,
    "theme":1,
-   "rating":"7,70",
+   "rating":"7,7",
    "price":12646
  },
  {
@@ -2843,7 +2843,7 @@
    "beach":1,
    "seaDistance":1,
    "theme":1,
-   "rating":"8,10",
+   "rating":"8,1",
    "price":30984
  },
  {
@@ -2856,7 +2856,7 @@
    "beach":1,
    "seaDistance":2,
    "theme":1,
-   "rating":"7,70",
+   "rating":"7,7",
    "price":11009
  },
  {
@@ -2869,7 +2869,7 @@
    "beach":1,
    "seaDistance":2,
    "theme":1,
-   "rating":"9,20",
+   "rating":"9,2",
    "price":43757
  },
  {
@@ -2882,7 +2882,7 @@
    "beach":1,
    "seaDistance":2,
    "theme":1,
-   "rating":"7,50",
+   "rating":"7,5",
    "price":15120
  },
  {
@@ -2895,7 +2895,7 @@
    "beach":1,
    "seaDistance":2,
    "theme":1,
-   "rating":"9,60",
+   "rating":"9,6",
    "price":10414
  },
  {
@@ -2908,7 +2908,7 @@
    "beach":1,
    "seaDistance":2,
    "theme":1,
-   "rating":"8,60",
+   "rating":"8,6",
    "price":8034
  },
  {
@@ -2921,7 +2921,7 @@
    "beach":1,
    "seaDistance":1,
    "theme":1,
-   "rating":"8,10",
+   "rating":"8,1",
    "price":16740
  },
  {
@@ -2934,7 +2934,7 @@
    "beach":1,
    "seaDistance":2,
    "theme":1,
-   "rating":"7,40",
+   "rating":"7,4",
    "price":13675
  },
  {
@@ -2947,7 +2947,7 @@
    "beach":1,
    "seaDistance":2,
    "theme":1,
-   "rating":"7,80",
+   "rating":"7,8",
    "price":17612
  },
  {
@@ -2960,7 +2960,7 @@
    "beach":1,
    "seaDistance":2,
    "theme":1,
-   "rating":"8,20",
+   "rating":"8,2",
    "price":9917
  },
  {
@@ -2973,7 +2973,7 @@
    "beach":1,
    "seaDistance":2,
    "theme":1,
-   "rating":"9,20",
+   "rating":"9,2",
    "price":16645
  },
  {
@@ -2986,7 +2986,7 @@
    "beach":1,
    "seaDistance":2,
    "theme":1,
-   "rating":"7,90",
+   "rating":"7,9",
    "price":35113
  },
  {
@@ -2999,7 +2999,7 @@
    "beach":1,
    "seaDistance":2,
    "theme":1,
-   "rating":"7,90",
+   "rating":"7,9",
    "price":13812
  },
  {
@@ -3012,7 +3012,7 @@
    "beach":1,
    "seaDistance":2,
    "theme":1,
-   "rating":"7,60",
+   "rating":"7,6",
    "price":24632
  },
  {
@@ -3025,7 +3025,7 @@
    "beach":1,
    "seaDistance":2,
    "theme":1,
-   "rating":"7,80",
+   "rating":"7,8",
    "price":15881
  },
  {
@@ -3038,7 +3038,7 @@
    "beach":1,
    "seaDistance":2,
    "theme":1,
-   "rating":"7,40",
+   "rating":"7,4",
    "price":14385
  },
  {
@@ -3051,7 +3051,7 @@
    "beach":1,
    "seaDistance":2,
    "theme":1,
-   "rating":"8,10",
+   "rating":"8,1",
    "price":38078
  },
  {
@@ -3064,7 +3064,7 @@
    "beach":1,
    "seaDistance":2,
    "theme":1,
-   "rating":"7,30",
+   "rating":"7,3",
    "price":26460
  },
  {
@@ -3077,7 +3077,7 @@
    "beach":1,
    "seaDistance":2,
    "theme":1,
-   "rating":"8,90",
+   "rating":"8,9",
    "price":46735
  },
  {
@@ -3090,7 +3090,7 @@
    "beach":1,
    "seaDistance":1,
    "theme":1,
-   "rating":"7,30",
+   "rating":"7,3",
    "price":18079
  },
  {
@@ -3103,7 +3103,7 @@
    "beach":1,
    "seaDistance":2,
    "theme":1,
-   "rating":"8,60",
+   "rating":"8,6",
    "price":15721
  },
  {
@@ -3116,7 +3116,7 @@
    "beach":1,
    "seaDistance":2,
    "theme":1,
-   "rating":"8,40",
+   "rating":"8,4",
    "price":28339
  },
  {
@@ -3129,7 +3129,7 @@
    "beach":1,
    "seaDistance":2,
    "theme":1,
-   "rating":"8,60",
+   "rating":"8,6",
    "price":12830
  },
  {
@@ -3142,7 +3142,7 @@
    "beach":1,
    "seaDistance":2,
    "theme":1,
-   "rating":"7,70",
+   "rating":"7,7",
    "price":24128
  },
  {
@@ -3155,7 +3155,7 @@
    "beach":2,
    "seaDistance":1,
    "theme":1,
-   "rating":"9,30",
+   "rating":"9,3",
    "price":28816
  },
  {
@@ -3168,7 +3168,7 @@
    "beach":1,
    "seaDistance":2,
    "theme":1,
-   "rating":"8,10",
+   "rating":"8,1",
    "price":33955
  },
  {
@@ -3181,7 +3181,7 @@
    "beach":1,
    "seaDistance":2,
    "theme":1,
-   "rating":"7,50",
+   "rating":"7,5",
    "price":22185
  },
  {
@@ -3194,7 +3194,7 @@
    "beach":1,
    "seaDistance":2,
    "theme":1,
-   "rating":"8,00",
+   "rating":"8",
    "price":16055
  },
  {
@@ -3207,7 +3207,7 @@
    "beach":2,
    "seaDistance":2,
    "theme":1,
-   "rating":"7,80",
+   "rating":"7,8",
    "price":13257
  },
  {
@@ -3220,7 +3220,7 @@
    "beach":1,
    "seaDistance":2,
    "theme":1,
-   "rating":"7,80",
+   "rating":"7,8",
    "price":33996
  },
  {
@@ -3233,7 +3233,7 @@
    "beach":1,
    "seaDistance":2,
    "theme":1,
-   "rating":"9,90",
+   "rating":"9,9",
    "price":45505
  },
  {
@@ -3246,7 +3246,7 @@
    "beach":1,
    "seaDistance":2,
    "theme":1,
-   "rating":"8,30",
+   "rating":"8,3",
    "price":24098
  },
  {
@@ -3259,7 +3259,7 @@
    "beach":1,
    "seaDistance":2,
    "theme":1,
-   "rating":"8,80",
+   "rating":"8,8",
    "price":20856
  },
  {
@@ -3272,7 +3272,7 @@
    "beach":1,
    "seaDistance":2,
    "theme":1,
-   "rating":"7,80",
+   "rating":"7,8",
    "price":31667
  },
  {
@@ -3285,7 +3285,7 @@
    "beach":1,
    "seaDistance":2,
    "theme":1,
-   "rating":"7,90",
+   "rating":"7,9",
    "price":24452
  },
  {
@@ -3298,7 +3298,7 @@
    "beach":1,
    "seaDistance":2,
    "theme":1,
-   "rating":"7,70",
+   "rating":"7,7",
    "price":26085
  },
  {
@@ -3311,7 +3311,7 @@
    "beach":1,
    "seaDistance":2,
    "theme":1,
-   "rating":"8,00",
+   "rating":"8",
    "price":25490
  },
  {
@@ -3324,7 +3324,7 @@
    "beach":1,
    "seaDistance":2,
    "theme":1,
-   "rating":"8,60",
+   "rating":"8,6",
    "price":24004
  },
  {
@@ -3337,7 +3337,7 @@
    "beach":1,
    "seaDistance":2,
    "theme":1,
-   "rating":"7,80",
+   "rating":"7,8",
    "price":27182
  },
  {
@@ -3350,7 +3350,7 @@
    "beach":1,
    "seaDistance":2,
    "theme":1,
-   "rating":"7,50",
+   "rating":"7,5",
    "price":28825
  },
  {
@@ -3363,7 +3363,7 @@
    "beach":1,
    "seaDistance":2,
    "theme":1,
-   "rating":"7,80",
+   "rating":"7,8",
    "price":27002
  },
  {
@@ -3376,7 +3376,7 @@
    "beach":1,
    "seaDistance":2,
    "theme":1,
-   "rating":"8,50",
+   "rating":"8,5",
    "price":38686
  },
  {
@@ -3389,7 +3389,7 @@
    "beach":2,
    "seaDistance":2,
    "theme":1,
-   "rating":"8,60",
+   "rating":"8,6",
    "price":41433
  },
  {
@@ -3402,7 +3402,7 @@
    "beach":1,
    "seaDistance":2,
    "theme":1,
-   "rating":"8,30",
+   "rating":"8,3",
    "price":13842
  },
  {
@@ -3415,7 +3415,7 @@
    "beach":2,
    "seaDistance":2,
    "theme":1,
-   "rating":"7,80",
+   "rating":"7,8",
    "price":25201
  },
  {
@@ -3428,7 +3428,7 @@
    "beach":1,
    "seaDistance":2,
    "theme":1,
-   "rating":"9,00",
+   "rating":"9",
    "price":27255
  },
  {
@@ -3441,7 +3441,7 @@
    "beach":1,
    "seaDistance":2,
    "theme":1,
-   "rating":"8,00",
+   "rating":"8",
    "price":20709
  },
  {
@@ -3454,7 +3454,7 @@
    "beach":1,
    "seaDistance":2,
    "theme":1,
-   "rating":"8,70",
+   "rating":"8,7",
    "price":66806
  },
  {
@@ -3467,7 +3467,7 @@
    "beach":1,
    "seaDistance":2,
    "theme":1,
-   "rating":"7,50",
+   "rating":"7,5",
    "price":22370
  },
  {
@@ -3480,7 +3480,7 @@
    "beach":1,
    "seaDistance":2,
    "theme":1,
-   "rating":"8,20",
+   "rating":"8,2",
    "price":24792
  },
  {
@@ -3493,7 +3493,7 @@
    "beach":1,
    "seaDistance":2,
    "theme":1,
-   "rating":"8,80",
+   "rating":"8,8",
    "price":25584
  },
  {
@@ -3506,7 +3506,7 @@
    "beach":1,
    "seaDistance":2,
    "theme":1,
-   "rating":"8,10",
+   "rating":"8,1",
    "price":22448
  },
  {
@@ -3519,7 +3519,7 @@
    "beach":1,
    "seaDistance":2,
    "theme":1,
-   "rating":"8,80",
+   "rating":"8,8",
    "price":17033
  },
  {
@@ -3532,7 +3532,7 @@
    "beach":1,
    "seaDistance":2,
    "theme":1,
-   "rating":"7,90",
+   "rating":"7,9",
    "price":24911
  },
  {
@@ -3545,7 +3545,7 @@
    "beach":1,
    "seaDistance":2,
    "theme":1,
-   "rating":"7,30",
+   "rating":"7,3",
    "price":23197
  },
  {
@@ -3558,7 +3558,7 @@
    "beach":1,
    "seaDistance":2,
    "theme":1,
-   "rating":"7,50",
+   "rating":"7,5",
    "price":23226
  },
  {
@@ -3571,7 +3571,7 @@
    "beach":2,
    "seaDistance":2,
    "theme":1,
-   "rating":"8,40",
+   "rating":"8,4",
    "price":18345
  },
  {
@@ -3584,7 +3584,7 @@
    "beach":2,
    "seaDistance":2,
    "theme":1,
-   "rating":"7,80",
+   "rating":"7,8",
    "price":31545
  },
  {
@@ -3597,7 +3597,7 @@
    "beach":1,
    "seaDistance":1,
    "theme":1,
-   "rating":"7,50",
+   "rating":"7,5",
    "price":56328
  },
  {
@@ -3610,7 +3610,7 @@
    "beach":1,
    "seaDistance":2,
    "theme":1,
-   "rating":"8,40",
+   "rating":"8,4",
    "price":30510
  },
  {
@@ -3623,7 +3623,7 @@
    "beach":1,
    "seaDistance":2,
    "theme":1,
-   "rating":"7,60",
+   "rating":"7,6",
    "price":37347
  },
  {
@@ -3636,7 +3636,7 @@
    "beach":1,
    "seaDistance":2,
    "theme":1,
-   "rating":"7,50",
+   "rating":"7,5",
    "price":16220
  },
  {
@@ -3649,7 +3649,7 @@
    "beach":1,
    "seaDistance":2,
    "theme":1,
-   "rating":"8,20",
+   "rating":"8,2",
    "price":24550
  },
  {
@@ -3662,7 +3662,7 @@
    "beach":1,
    "seaDistance":2,
    "theme":1,
-   "rating":"9,90",
+   "rating":"9,9",
    "price":25271
  },
  {
@@ -3675,7 +3675,7 @@
    "beach":1,
    "seaDistance":2,
    "theme":1,
-   "rating":"8,00",
+   "rating":"8",
    "price":22353
  },
  {
@@ -3688,7 +3688,7 @@
    "beach":2,
    "seaDistance":2,
    "theme":1,
-   "rating":"7,10",
+   "rating":"7,1",
    "price":17956
  },
  {
@@ -3701,7 +3701,7 @@
    "beach":1,
    "seaDistance":2,
    "theme":1,
-   "rating":"8,60",
+   "rating":"8,6",
    "price":28212
  },
  {
@@ -3714,7 +3714,7 @@
    "beach":1,
    "seaDistance":1,
    "theme":1,
-   "rating":"8,40",
+   "rating":"8,4",
    "price":32440
  },
  {
@@ -3727,7 +3727,7 @@
    "beach":1,
    "seaDistance":1,
    "theme":1,
-   "rating":"9,00",
+   "rating":"9",
    "price":35597
  },
  {
@@ -3740,7 +3740,7 @@
    "beach":1,
    "seaDistance":1,
    "theme":1,
-   "rating":"8,30",
+   "rating":"8,3",
    "price":43940
  },
  {
@@ -3753,7 +3753,7 @@
    "beach":1,
    "seaDistance":2,
    "theme":1,
-   "rating":"7,20",
+   "rating":"7,2",
    "price":16903
  },
  {
@@ -3766,7 +3766,7 @@
    "beach":1,
    "seaDistance":2,
    "theme":1,
-   "rating":"8,60",
+   "rating":"8,6",
    "price":30383
  },
  {
@@ -3779,7 +3779,7 @@
    "beach":1,
    "seaDistance":2,
    "theme":1,
-   "rating":"8,00",
+   "rating":"8",
    "price":26446
  },
  {
@@ -3792,7 +3792,7 @@
    "beach":2,
    "seaDistance":2,
    "theme":1,
-   "rating":"7,30",
+   "rating":"7,3",
    "price":63894
  },
  {
@@ -3805,7 +3805,7 @@
    "beach":1,
    "seaDistance":1,
    "theme":1,
-   "rating":"8,60",
+   "rating":"8,6",
    "price":34088
  },
  {
@@ -3818,7 +3818,7 @@
    "beach":1,
    "seaDistance":2,
    "theme":1,
-   "rating":"7,60",
+   "rating":"7,6",
    "price":32501
  },
  {
@@ -3831,7 +3831,7 @@
    "beach":1,
    "seaDistance":2,
    "theme":1,
-   "rating":"8,00",
+   "rating":"8",
    "price":25767
  },
  {
@@ -3844,7 +3844,7 @@
    "beach":1,
    "seaDistance":2,
    "theme":1,
-   "rating":"9,40",
+   "rating":"9,4",
    "price":22785
  },
  {
@@ -3857,7 +3857,7 @@
    "beach":1,
    "seaDistance":2,
    "theme":1,
-   "rating":"8,30",
+   "rating":"8,3",
    "price":18753
  },
  {
@@ -3870,7 +3870,7 @@
    "beach":1,
    "seaDistance":2,
    "theme":1,
-   "rating":"7,10",
+   "rating":"7,1",
    "price":18193
  },
  {
@@ -3883,7 +3883,7 @@
    "beach":2,
    "seaDistance":2,
    "theme":1,
-   "rating":"8,60",
+   "rating":"8,6",
    "price":46558
  },
  {
@@ -3896,7 +3896,7 @@
    "beach":1,
    "seaDistance":2,
    "theme":1,
-   "rating":"8,40",
+   "rating":"8,4",
    "price":22252
  },
  {
@@ -3909,7 +3909,7 @@
    "beach":1,
    "seaDistance":2,
    "theme":1,
-   "rating":"7,60",
+   "rating":"7,6",
    "price":29043
  },
  {
@@ -3922,7 +3922,7 @@
    "beach":1,
    "seaDistance":2,
    "theme":1,
-   "rating":"8,20",
+   "rating":"8,2",
    "price":20834
  },
  {
@@ -3935,7 +3935,7 @@
    "beach":1,
    "seaDistance":2,
    "theme":1,
-   "rating":"7,30",
+   "rating":"7,3",
    "price":45563
  },
  {
@@ -3948,7 +3948,7 @@
    "beach":1,
    "seaDistance":2,
    "theme":1,
-   "rating":"7,60",
+   "rating":"7,6",
    "price":28624
  },
  {
@@ -3961,7 +3961,7 @@
    "beach":1,
    "seaDistance":2,
    "theme":1,
-   "rating":"7,30",
+   "rating":"7,3",
    "price":32916
  },
  {
@@ -3974,7 +3974,7 @@
    "beach":1,
    "seaDistance":2,
    "theme":1,
-   "rating":"7,90",
+   "rating":"7,9",
    "price":10747
  },
  {
@@ -3987,7 +3987,7 @@
    "beach":1,
    "seaDistance":2,
    "theme":1,
-   "rating":"8,00",
+   "rating":"8",
    "price":32431
  },
  {
@@ -4000,7 +4000,7 @@
    "beach":2,
    "seaDistance":2,
    "theme":1,
-   "rating":"8,40",
+   "rating":"8,4",
    "price":22622
  },
  {
@@ -4013,7 +4013,7 @@
    "beach":2,
    "seaDistance":2,
    "theme":1,
-   "rating":"9,20",
+   "rating":"9,2",
    "price":54803
  },
  {
@@ -4026,7 +4026,7 @@
    "beach":1,
    "seaDistance":2,
    "theme":1,
-   "rating":"9,30",
+   "rating":"9,3",
    "price":17368
  },
  {
@@ -4039,7 +4039,7 @@
    "beach":1,
    "seaDistance":2,
    "theme":1,
-   "rating":"7,80",
+   "rating":"7,8",
    "price":24275
  },
  {
@@ -4052,7 +4052,7 @@
    "beach":1,
    "seaDistance":1,
    "theme":1,
-   "rating":"9,30",
+   "rating":"9,3",
    "price":34201
  },
  {
@@ -4065,7 +4065,7 @@
    "beach":1,
    "seaDistance":2,
    "theme":1,
-   "rating":"7,90",
+   "rating":"7,9",
    "price":31857
  },
  {
@@ -4078,7 +4078,7 @@
    "beach":1,
    "seaDistance":2,
    "theme":1,
-   "rating":"7,10",
+   "rating":"7,1",
    "price":12621
  },
  {
@@ -4091,7 +4091,7 @@
    "beach":2,
    "seaDistance":1,
    "theme":1,
-   "rating":"9,90",
+   "rating":"9,9",
    "price":26858
  },
  {
@@ -4104,7 +4104,7 @@
    "beach":1,
    "seaDistance":2,
    "theme":1,
-   "rating":"8,00",
+   "rating":"8",
    "price":30050
  },
  {
@@ -4117,7 +4117,7 @@
    "beach":1,
    "seaDistance":2,
    "theme":1,
-   "rating":"9,00",
+   "rating":"9",
    "price":22676
  },
  {
@@ -4130,7 +4130,7 @@
    "beach":1,
    "seaDistance":1,
    "theme":1,
-   "rating":"7,60",
+   "rating":"7,6",
    "price":33007
  },
  {
@@ -4143,7 +4143,7 @@
    "beach":1,
    "seaDistance":2,
    "theme":1,
-   "rating":"8,10",
+   "rating":"8,1",
    "price":31929
  },
  {
@@ -4156,7 +4156,7 @@
    "beach":1,
    "seaDistance":2,
    "theme":1,
-   "rating":"7,20",
+   "rating":"7,2",
    "price":34393
  },
  {
@@ -4169,7 +4169,7 @@
    "beach":1,
    "seaDistance":2,
    "theme":1,
-   "rating":"7,40",
+   "rating":"7,4",
    "price":16153
  },
  {
@@ -4182,7 +4182,7 @@
    "beach":1,
    "seaDistance":2,
    "theme":1,
-   "rating":"9,90",
+   "rating":"9,9",
    "price":7552
  },
  {
@@ -4195,7 +4195,7 @@
    "beach":1,
    "seaDistance":2,
    "theme":1,
-   "rating":"8,10",
+   "rating":"8,1",
    "price":19254
  },
  {
@@ -4208,7 +4208,7 @@
    "beach":1,
    "seaDistance":2,
    "theme":1,
-   "rating":"9,10",
+   "rating":"9,1",
    "price":42621
  },
  {
@@ -4221,7 +4221,7 @@
    "beach":1,
    "seaDistance":2,
    "theme":1,
-   "rating":"8,70",
+   "rating":"8,7",
    "price":28891
  },
  {
@@ -4234,7 +4234,7 @@
    "beach":1,
    "seaDistance":1,
    "theme":1,
-   "rating":"8,00",
+   "rating":"8",
    "price":28206
  },
  {
@@ -4247,7 +4247,7 @@
    "beach":1,
    "seaDistance":1,
    "theme":1,
-   "rating":"8,30",
+   "rating":"8,3",
    "price":47358
  },
  {
@@ -4260,7 +4260,7 @@
    "beach":1,
    "seaDistance":2,
    "theme":1,
-   "rating":"7,80",
+   "rating":"7,8",
    "price":33918
  },
  {
@@ -4273,7 +4273,7 @@
    "beach":1,
    "seaDistance":2,
    "theme":1,
-   "rating":"7,60",
+   "rating":"7,6",
    "price":22892
  },
  {
@@ -4286,7 +4286,7 @@
    "beach":1,
    "seaDistance":2,
    "theme":1,
-   "rating":"8,70",
+   "rating":"8,7",
    "price":27780
  },
  {
@@ -4299,7 +4299,7 @@
    "beach":1,
    "seaDistance":2,
    "theme":1,
-   "rating":"8,70",
+   "rating":"8,7",
    "price":37815
  },
  {
@@ -4312,7 +4312,7 @@
    "beach":1,
    "seaDistance":2,
    "theme":1,
-   "rating":"9,50",
+   "rating":"9,5",
    "price":25435
  },
  {
@@ -4325,7 +4325,7 @@
    "beach":1,
    "seaDistance":2,
    "theme":1,
-   "rating":"7,60",
+   "rating":"7,6",
    "price":17330
  },
  {
@@ -4338,7 +4338,7 @@
    "beach":2,
    "seaDistance":2,
    "theme":1,
-   "rating":"8,30",
+   "rating":"8,3",
    "price":37709
  },
  {
@@ -4351,7 +4351,7 @@
    "beach":1,
    "seaDistance":1,
    "theme":1,
-   "rating":"8,30",
+   "rating":"8,3",
    "price":29446
  },
  {
@@ -4364,7 +4364,7 @@
    "beach":1,
    "seaDistance":2,
    "theme":1,
-   "rating":"8,30",
+   "rating":"8,3",
    "price":42994
  },
  {
@@ -4377,7 +4377,7 @@
    "beach":1,
    "seaDistance":2,
    "theme":1,
-   "rating":"8,50",
+   "rating":"8,5",
    "price":89815
  },
  {
@@ -4390,7 +4390,7 @@
    "beach":1,
    "seaDistance":2,
    "theme":1,
-   "rating":"8,80",
+   "rating":"8,8",
    "price":39029
  },
  {
@@ -4403,7 +4403,7 @@
    "beach":1,
    "seaDistance":2,
    "theme":1,
-   "rating":"8,70",
+   "rating":"8,7",
    "price":60040
  },
  {
@@ -4416,7 +4416,7 @@
    "beach":1,
    "seaDistance":2,
    "theme":1,
-   "rating":"8,30",
+   "rating":"8,3",
    "price":49008
  },
  {
@@ -4429,7 +4429,7 @@
    "beach":1,
    "seaDistance":2,
    "theme":1,
-   "rating":"7,20",
+   "rating":"7,2",
    "price":33834
  },
  {
@@ -4442,12 +4442,12 @@
    "beach":1,
    "seaDistance":2,
    "theme":1,
-   "rating":"8,50",
+   "rating":"8,5",
    "price":25572
  },
  {
    "id":28003,
-   "title":"Comarruga Platja�",
+   "title":"Comarruga Platja ",
    "country":7,
    "hasChild":1,
    "budget":2,
@@ -4455,7 +4455,7 @@
    "beach":1,
    "seaDistance":2,
    "theme":1,
-   "rating":"9,10",
+   "rating":"9,1",
    "price":34073
  },
  {
@@ -4468,7 +4468,7 @@
    "beach":1,
    "seaDistance":2,
    "theme":1,
-   "rating":"7,50",
+   "rating":"7,5",
    "price":19354
  },
  {
@@ -4481,7 +4481,7 @@
    "beach":1,
    "seaDistance":2,
    "theme":1,
-   "rating":"8,40",
+   "rating":"8,4",
    "price":17461
  },
  {
@@ -4494,7 +4494,7 @@
    "beach":1,
    "seaDistance":2,
    "theme":1,
-   "rating":"8,30",
+   "rating":"8,3",
    "price":17054
  },
  {
@@ -4507,7 +4507,7 @@
    "beach":1,
    "seaDistance":2,
    "theme":1,
-   "rating":"9,70",
+   "rating":"9,7",
    "price":18471
  },
  {
@@ -4520,7 +4520,7 @@
    "beach":1,
    "seaDistance":2,
    "theme":1,
-   "rating":"8,60",
+   "rating":"8,6",
    "price":42459
  },
  {
@@ -4533,7 +4533,7 @@
    "beach":1,
    "seaDistance":2,
    "theme":1,
-   "rating":"8,70",
+   "rating":"8,7",
    "price":98223
  },
  {
@@ -4546,7 +4546,7 @@
    "beach":1,
    "seaDistance":2,
    "theme":1,
-   "rating":"7,60",
+   "rating":"7,6",
    "price":45180
  },
  {
@@ -4559,7 +4559,7 @@
    "beach":1,
    "seaDistance":2,
    "theme":1,
-   "rating":"9,00",
+   "rating":"9",
    "price":23569
  },
  {
@@ -4572,7 +4572,7 @@
    "beach":2,
    "seaDistance":2,
    "theme":1,
-   "rating":"7,90",
+   "rating":"7,9",
    "price":30194
  },
  {
@@ -4585,7 +4585,7 @@
    "beach":2,
    "seaDistance":2,
    "theme":1,
-   "rating":"7,70",
+   "rating":"7,7",
    "price":20557
  },
  {
@@ -4598,7 +4598,7 @@
    "beach":1,
    "seaDistance":2,
    "theme":1,
-   "rating":"9,10",
+   "rating":"9,1",
    "price":33641
  },
  {
@@ -4611,7 +4611,7 @@
    "beach":1,
    "seaDistance":2,
    "theme":1,
-   "rating":"9,00",
+   "rating":"9",
    "price":40825
  },
  {
@@ -4624,7 +4624,7 @@
    "beach":1,
    "seaDistance":2,
    "theme":1,
-   "rating":"8,00",
+   "rating":"8",
    "price":51277
  },
  {
@@ -4637,7 +4637,7 @@
    "beach":1,
    "seaDistance":2,
    "theme":1,
-   "rating":"8,30",
+   "rating":"8,3",
    "price":44553
  },
  {
@@ -4650,7 +4650,7 @@
    "beach":1,
    "seaDistance":2,
    "theme":1,
-   "rating":"7,40",
+   "rating":"7,4",
    "price":33641
  },
  {
@@ -4663,7 +4663,7 @@
    "beach":1,
    "seaDistance":2,
    "theme":1,
-   "rating":"8,10",
+   "rating":"8,1",
    "price":33685
  },
  {
@@ -4676,7 +4676,7 @@
    "beach":1,
    "seaDistance":2,
    "theme":1,
-   "rating":"9,10",
+   "rating":"9,1",
    "price":21565
  },
  {
@@ -4689,7 +4689,7 @@
    "beach":1,
    "seaDistance":2,
    "theme":1,
-   "rating":"8,80",
+   "rating":"8,8",
    "price":33118
  },
  {
@@ -4702,7 +4702,7 @@
    "beach":1,
    "seaDistance":2,
    "theme":1,
-   "rating":"8,90",
+   "rating":"8,9",
    "price":30224
  },
  {
@@ -4715,7 +4715,7 @@
    "beach":1,
    "seaDistance":2,
    "theme":1,
-   "rating":"8,70",
+   "rating":"8,7",
    "price":21035
  },
  {
@@ -4728,7 +4728,7 @@
    "beach":2,
    "seaDistance":2,
    "theme":1,
-   "rating":"9,10",
+   "rating":"9,1",
    "price":51861
  },
  {
@@ -4741,7 +4741,7 @@
    "beach":1,
    "seaDistance":2,
    "theme":1,
-   "rating":"8,20",
+   "rating":"8,2",
    "price":20709
  },
  {
@@ -4754,7 +4754,7 @@
    "beach":1,
    "seaDistance":2,
    "theme":1,
-   "rating":"8,40",
+   "rating":"8,4",
    "price":52710
  },
  {
@@ -4767,7 +4767,7 @@
    "beach":1,
    "seaDistance":2,
    "theme":1,
-   "rating":"8,40",
+   "rating":"8,4",
    "price":35504
  },
  {
@@ -4780,7 +4780,7 @@
    "beach":1,
    "seaDistance":2,
    "theme":1,
-   "rating":"7,50",
+   "rating":"7,5",
    "price":38531
  },
  {
@@ -4793,7 +4793,7 @@
    "beach":1,
    "seaDistance":2,
    "theme":1,
-   "rating":"8,50",
+   "rating":"8,5",
    "price":43573
  },
  {
@@ -4806,12 +4806,12 @@
    "beach":1,
    "seaDistance":2,
    "theme":1,
-   "rating":"8,20",
+   "rating":"8,2",
    "price":64419
  },
  {
    "id":31706,
-   "title":"Hotel Samba�",
+   "title":"Hotel Samba ",
    "country":7,
    "hasChild":1,
    "budget":2,
@@ -4819,7 +4819,7 @@
    "beach":1,
    "seaDistance":2,
    "theme":1,
-   "rating":"8,20",
+   "rating":"8,2",
    "price":38247
  },
  {
@@ -4832,7 +4832,7 @@
    "beach":1,
    "seaDistance":2,
    "theme":1,
-   "rating":"8,70",
+   "rating":"8,7",
    "price":26380
  },
  {
@@ -4845,7 +4845,7 @@
    "beach":1,
    "seaDistance":2,
    "theme":1,
-   "rating":"8,20",
+   "rating":"8,2",
    "price":32359
  },
  {
@@ -4858,7 +4858,7 @@
    "beach":1,
    "seaDistance":2,
    "theme":1,
-   "rating":"8,00",
+   "rating":"8",
    "price":50414
  },
  {
@@ -4871,7 +4871,7 @@
    "beach":1,
    "seaDistance":2,
    "theme":1,
-   "rating":"8,00",
+   "rating":"8",
    "price":38376
  },
  {
@@ -4884,7 +4884,7 @@
    "beach":1,
    "seaDistance":2,
    "theme":1,
-   "rating":"9,10",
+   "rating":"9,1",
    "price":28759
  },
  {
@@ -4897,7 +4897,7 @@
    "beach":1,
    "seaDistance":2,
    "theme":1,
-   "rating":"7,80",
+   "rating":"7,8",
    "price":48476
  },
  {
@@ -4910,7 +4910,7 @@
    "beach":1,
    "seaDistance":2,
    "theme":1,
-   "rating":"8,60",
+   "rating":"8,6",
    "price":50576
  },
  {
@@ -4923,7 +4923,7 @@
    "beach":1,
    "seaDistance":2,
    "theme":1,
-   "rating":"8,90",
+   "rating":"8,9",
    "price":26267
  },
  {
@@ -4936,7 +4936,7 @@
    "beach":1,
    "seaDistance":1,
    "theme":1,
-   "rating":"8,70",
+   "rating":"8,7",
    "price":41545
  },
  {
@@ -4949,7 +4949,7 @@
    "beach":1,
    "seaDistance":1,
    "theme":1,
-   "rating":"8,50",
+   "rating":"8,5",
    "price":53601
  },
  {
@@ -4962,7 +4962,7 @@
    "beach":1,
    "seaDistance":2,
    "theme":1,
-   "rating":"9,20",
+   "rating":"9,2",
    "price":32025
  },
  {
@@ -4975,7 +4975,7 @@
    "beach":1,
    "seaDistance":1,
    "theme":1,
-   "rating":"8,40",
+   "rating":"8,4",
    "price":61579
  },
  {
@@ -4988,7 +4988,7 @@
    "beach":1,
    "seaDistance":2,
    "theme":1,
-   "rating":"7,30",
+   "rating":"7,3",
    "price":24692
  },
  {
@@ -5001,7 +5001,7 @@
    "beach":1,
    "seaDistance":2,
    "theme":1,
-   "rating":"9,40",
+   "rating":"9,4",
    "price":40706
  },
  {
@@ -5014,7 +5014,7 @@
    "beach":1,
    "seaDistance":2,
    "theme":1,
-   "rating":"8,80",
+   "rating":"8,8",
    "price":64314
  },
  {
@@ -5027,7 +5027,7 @@
    "beach":1,
    "seaDistance":2,
    "theme":1,
-   "rating":"8,60",
+   "rating":"8,6",
    "price":28871
  },
  {
@@ -5040,7 +5040,7 @@
    "beach":1,
    "seaDistance":2,
    "theme":1,
-   "rating":"8,70",
+   "rating":"8,7",
    "price":62394
  },
  {
@@ -5053,7 +5053,7 @@
    "beach":1,
    "seaDistance":1,
    "theme":1,
-   "rating":"9,30",
+   "rating":"9,3",
    "price":21537
  },
  {
@@ -5066,7 +5066,7 @@
    "beach":1,
    "seaDistance":1,
    "theme":1,
-   "rating":"8,20",
+   "rating":"8,2",
    "price":36581
  },
  {
@@ -5079,7 +5079,7 @@
    "beach":1,
    "seaDistance":2,
    "theme":1,
-   "rating":"8,30",
+   "rating":"8,3",
    "price":38940
  },
  {
@@ -5092,7 +5092,7 @@
    "beach":1,
    "seaDistance":1,
    "theme":1,
-   "rating":"8,00",
+   "rating":"8",
    "price":28690
  },
  {
@@ -5105,7 +5105,7 @@
    "beach":1,
    "seaDistance":1,
    "theme":1,
-   "rating":"8,80",
+   "rating":"8,8",
    "price":62142
  },
  {
@@ -5118,7 +5118,7 @@
    "beach":2,
    "seaDistance":1,
    "theme":1,
-   "rating":"8,50",
+   "rating":"8,5",
    "price":42245
  },
  {
@@ -5131,7 +5131,7 @@
    "beach":1,
    "seaDistance":2,
    "theme":1,
-   "rating":"8,10",
+   "rating":"8,1",
    "price":28570
  },
  {
@@ -5144,7 +5144,7 @@
    "beach":1,
    "seaDistance":2,
    "theme":1,
-   "rating":"7,30",
+   "rating":"7,3",
    "price":47674
  },
  {
@@ -5157,7 +5157,7 @@
    "beach":1,
    "seaDistance":2,
    "theme":1,
-   "rating":"7,80",
+   "rating":"7,8",
    "price":49191
  },
  {
@@ -5170,7 +5170,7 @@
    "beach":1,
    "seaDistance":1,
    "theme":1,
-   "rating":"9,10",
+   "rating":"9,1",
    "price":80288
  },
  {
@@ -5183,7 +5183,7 @@
    "beach":1,
    "seaDistance":1,
    "theme":1,
-   "rating":"9,20",
+   "rating":"9,2",
    "price":57171
  },
  {
@@ -5196,7 +5196,7 @@
    "beach":1,
    "seaDistance":2,
    "theme":1,
-   "rating":"7,60",
+   "rating":"7,6",
    "price":28035
  },
  {
@@ -5209,7 +5209,7 @@
    "beach":2,
    "seaDistance":1,
    "theme":1,
-   "rating":"8,70",
+   "rating":"8,7",
    "price":41912
  },
  {
@@ -5222,7 +5222,7 @@
    "beach":1,
    "seaDistance":2,
    "theme":1,
-   "rating":"9,10",
+   "rating":"9,1",
    "price":52220
  },
  {
@@ -5235,7 +5235,7 @@
    "beach":1,
    "seaDistance":2,
    "theme":1,
-   "rating":"9,30",
+   "rating":"9,3",
    "price":47302
  },
  {
@@ -5248,7 +5248,7 @@
    "beach":1,
    "seaDistance":1,
    "theme":1,
-   "rating":"9,00",
+   "rating":"9",
    "price":40555
  },
  {
@@ -5261,7 +5261,7 @@
    "beach":2,
    "seaDistance":1,
    "theme":1,
-   "rating":"9,30",
+   "rating":"9,3",
    "price":52329
  },
  {
@@ -5274,7 +5274,7 @@
    "beach":1,
    "seaDistance":2,
    "theme":1,
-   "rating":"8,50",
+   "rating":"8,5",
    "price":45769
  },
  {
@@ -5287,7 +5287,7 @@
    "beach":1,
    "seaDistance":1,
    "theme":1,
-   "rating":"9,20",
+   "rating":"9,2",
    "price":50746
  },
  {
@@ -5300,7 +5300,7 @@
    "beach":1,
    "seaDistance":2,
    "theme":1,
-   "rating":"8,20",
+   "rating":"8,2",
    "price":32522
  },
  {
@@ -5313,7 +5313,7 @@
    "beach":1,
    "seaDistance":2,
    "theme":1,
-   "rating":"8,50",
+   "rating":"8,5",
    "price":41400
  },
  {
@@ -5326,7 +5326,7 @@
    "beach":2,
    "seaDistance":2,
    "theme":1,
-   "rating":"8,40",
+   "rating":"8,4",
    "price":38989
  },
  {
@@ -5339,7 +5339,7 @@
    "beach":1,
    "seaDistance":2,
    "theme":1,
-   "rating":"8,80",
+   "rating":"8,8",
    "price":58524
  },
  {
@@ -5352,7 +5352,7 @@
    "beach":1,
    "seaDistance":1,
    "theme":1,
-   "rating":"9,00",
+   "rating":"9",
    "price":32369
  },
  {
@@ -5365,7 +5365,7 @@
    "beach":1,
    "seaDistance":1,
    "theme":1,
-   "rating":"9,20",
+   "rating":"9,2",
    "price":50310
  },
  {
@@ -5378,7 +5378,7 @@
    "beach":1,
    "seaDistance":1,
    "theme":1,
-   "rating":"9,10",
+   "rating":"9,1",
    "price":89839
  },
  {
@@ -5391,7 +5391,7 @@
    "beach":1,
    "seaDistance":1,
    "theme":1,
-   "rating":"7,80",
+   "rating":"7,8",
    "price":40142
  },
  {
@@ -5404,7 +5404,7 @@
    "beach":1,
    "seaDistance":2,
    "theme":1,
-   "rating":"7,70",
+   "rating":"7,7",
    "price":45655
  },
  {
@@ -5417,7 +5417,7 @@
    "beach":1,
    "seaDistance":1,
    "theme":1,
-   "rating":"8,10",
+   "rating":"8,1",
    "price":48889
  },
  {
@@ -5430,7 +5430,7 @@
    "beach":1,
    "seaDistance":2,
    "theme":1,
-   "rating":"8,60",
+   "rating":"8,6",
    "price":51181
  },
  {
@@ -5443,7 +5443,7 @@
    "beach":1,
    "seaDistance":2,
    "theme":1,
-   "rating":"7,90",
+   "rating":"7,9",
    "price":48428
  },
  {
@@ -5456,7 +5456,7 @@
    "beach":1,
    "seaDistance":1,
    "theme":1,
-   "rating":"9,20",
+   "rating":"9,2",
    "price":37017
  },
  {
@@ -5469,7 +5469,7 @@
    "beach":1,
    "seaDistance":2,
    "theme":1,
-   "rating":"7,80",
+   "rating":"7,8",
    "price":27038
  },
  {
@@ -5482,7 +5482,7 @@
    "beach":1,
    "seaDistance":2,
    "theme":1,
-   "rating":"8,00",
+   "rating":"8",
    "price":51658
  },
  {
@@ -5495,7 +5495,7 @@
    "beach":1,
    "seaDistance":2,
    "theme":1,
-   "rating":"8,80",
+   "rating":"8,8",
    "price":36804
  },
  {
@@ -5508,7 +5508,7 @@
    "beach":1,
    "seaDistance":2,
    "theme":1,
-   "rating":"8,20",
+   "rating":"8,2",
    "price":48007
  },
  {
@@ -5521,7 +5521,7 @@
    "beach":1,
    "seaDistance":1,
    "theme":1,
-   "rating":"8,50",
+   "rating":"8,5",
    "price":50943
  },
  {
@@ -5534,7 +5534,7 @@
    "beach":1,
    "seaDistance":2,
    "theme":1,
-   "rating":"9,00",
+   "rating":"9",
    "price":24391
  },
  {
@@ -5547,7 +5547,7 @@
    "beach":1,
    "seaDistance":2,
    "theme":1,
-   "rating":"8,30",
+   "rating":"8,3",
    "price":37701
  },
  {
@@ -5560,7 +5560,7 @@
    "beach":1,
    "seaDistance":2,
    "theme":1,
-   "rating":"8,20",
+   "rating":"8,2",
    "price":36755
  },
  {
@@ -5573,7 +5573,7 @@
    "beach":1,
    "seaDistance":2,
    "theme":1,
-   "rating":"8,30",
+   "rating":"8,3",
    "price":33092
  },
  {
@@ -5586,7 +5586,7 @@
    "beach":1,
    "seaDistance":2,
    "theme":1,
-   "rating":"7,70",
+   "rating":"7,7",
    "price":41234
  },
  {
@@ -5599,7 +5599,7 @@
    "beach":1,
    "seaDistance":1,
    "theme":1,
-   "rating":"7,90",
+   "rating":"7,9",
    "price":50788
  },
  {
@@ -5612,7 +5612,7 @@
    "beach":1,
    "seaDistance":2,
    "theme":1,
-   "rating":"7,70",
+   "rating":"7,7",
    "price":45869
  },
  {
@@ -5625,7 +5625,7 @@
    "beach":1,
    "seaDistance":2,
    "theme":1,
-   "rating":"8,20",
+   "rating":"8,2",
    "price":26903
  },
  {
@@ -5638,7 +5638,7 @@
    "beach":1,
    "seaDistance":2,
    "theme":1,
-   "rating":"8,20",
+   "rating":"8,2",
    "price":45669
  },
  {
@@ -5651,7 +5651,7 @@
    "beach":1,
    "seaDistance":2,
    "theme":1,
-   "rating":"7,70",
+   "rating":"7,7",
    "price":33828
  },
  {
@@ -5664,7 +5664,7 @@
    "beach":1,
    "seaDistance":2,
    "theme":1,
-   "rating":"7,40",
+   "rating":"7,4",
    "price":27957
  },
  {
@@ -5677,7 +5677,7 @@
    "beach":1,
    "seaDistance":2,
    "theme":1,
-   "rating":"8,10",
+   "rating":"8,1",
    "price":24487
  },
  {
@@ -5690,7 +5690,7 @@
    "beach":1,
    "seaDistance":2,
    "theme":1,
-   "rating":"7,40",
+   "rating":"7,4",
    "price":22222
  },
  {
@@ -5703,7 +5703,7 @@
    "beach":1,
    "seaDistance":2,
    "theme":1,
-   "rating":"9,00",
+   "rating":"9",
    "price":31284
  },
  {
@@ -5716,7 +5716,7 @@
    "beach":2,
    "seaDistance":1,
    "theme":1,
-   "rating":"8,30",
+   "rating":"8,3",
    "price":26423
  },
  {
@@ -5729,7 +5729,7 @@
    "beach":2,
    "seaDistance":2,
    "theme":1,
-   "rating":"9,10",
+   "rating":"9,1",
    "price":33921
  },
  {
@@ -5742,7 +5742,7 @@
    "beach":1,
    "seaDistance":2,
    "theme":1,
-   "rating":"7,90",
+   "rating":"7,9",
    "price":38639
  },
  {
@@ -5755,12 +5755,12 @@
    "beach":1,
    "seaDistance":2,
    "theme":1,
-   "rating":"8,20",
+   "rating":"8,2",
    "price":32549
  },
  {
    "id":59252,
-   "title":"���-Village",
+   "title":"Эко-Village",
    "country":1,
    "hasChild":1,
    "budget":1,
@@ -5768,12 +5768,12 @@
    "beach":1,
    "seaDistance":1,
    "theme":1,
-   "rating":"7,30",
+   "rating":"7,3",
    "price":4742
  },
  {
    "id":60625,
-   "title":"���� (ex. ������� ����, ������ 1)",
+   "title":"Маяк (ex. Золотой Пляж, корпус 1)",
    "country":1,
    "hasChild":1,
    "budget":1,
@@ -5781,7 +5781,7 @@
    "beach":2,
    "seaDistance":2,
    "theme":1,
-   "rating":"8,70",
+   "rating":"8,7",
    "price":14775
  },
  {
@@ -5794,7 +5794,7 @@
    "beach":2,
    "seaDistance":2,
    "theme":1,
-   "rating":"9,90",
+   "rating":"9,9",
    "price":24579
  },
  {
@@ -5807,7 +5807,7 @@
    "beach":1,
    "seaDistance":2,
    "theme":1,
-   "rating":"8,20",
+   "rating":"8,2",
    "price":21662
  },
  {
@@ -5820,7 +5820,7 @@
    "beach":1,
    "seaDistance":1,
    "theme":1,
-   "rating":"8,30",
+   "rating":"8,3",
    "price":31236
  }
 ]

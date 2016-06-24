@@ -46,13 +46,13 @@ const questions = [
     variants: [
       {
         id: 1,
-        caption: 'да',
+        caption: 'Да',
         image: 'http://go2rest.ru/image/family/family_02.jpg'
       },
       {
         id: 2,
         caption: 'Нет',
-        image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Age_warning_symbol.svg/480px-Age_warning_symbol.svg.png'
+        image: 'http://www.honeymoonmaldives.com/blog/wp-content/uploads/2016/05/couple-on-beach.jpg'
       }
     ]
   },
@@ -63,17 +63,17 @@ const questions = [
       {
         id: 1,
         caption: 'Экономично',
-        image: 'http://tverdomery.ru/assets/images/kopilka.jpg'
+        image: 'http://www.tio.by/datas/photos/page_30766.jpg'
       },
       {
         id: 2,
         caption: 'В пределах разумного',
-        image: 'https://www.google.ru/search?newwindow=1&espv=2&biw=1390&bih=633&tbm=isch&sa=1&q=%D0%BA%D0%BE%D1%88%D0%B5%D0%BB%D0%B5%D0%BA+%D1%81+%D0%B4%D0%B5%D0%BD%D1%8C%D0%B3%D0%B0%D0%BC%D0%B8&oq=%D0%BA%D0%BE%D1%88%D0%B5%D0%BB%D0%B5%D0%BA+%D1%81+%D0%B4%D0%B5%D0%BD%D1%8C%D0%B3%D0%B0%D0%BC%D0%B8&gs_l=img.3..0l6j0i30j0i5i30l3.34225.36428.0.36663.11.11.0.0.0.0.92.809.10.10.0....0...1c.1.64.img..1.10.802.vxxXbWhTHiI#imgrc=A6V65o14J3HSSM%3A'
+        image: 'https://angeliquepanagos.com/wp-content/uploads/2015/08/balance.jpg'
       },
       {
         id: 3,
         caption: 'Сумма не важна',
-        image: 'http://ic.pics.livejournal.com/kowalski_75/62982442/54183/54183_original.jpg'
+        image: 'http://beingclassicallyliberal.liberty.me/wp-content/uploads/sites/843/2014/05/10255205_1490776091133960_7426704659073512688_n.jpg'
       },
     ]
   },
@@ -94,7 +94,7 @@ const questions = [
       {
         id: 3,
         caption: 'В любом',
-        image: 'http://ic.pics.livejournal.com/kowalski_75/62982442/54183/54183_original.jpg'
+        image: 'https://upload.wikimedia.org/wikipedia/commons/6/6f/Numbers_341_to_385_Lordship_Lane_N17.jpg'
       },
     ]
   },
