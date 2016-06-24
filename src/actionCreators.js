@@ -1,3 +1,5 @@
+import 'whatwg-fetch';
+
 export function answerQuestion(questionId, answerId){
   return {
     type: 'ANSWER_QUESTION',
