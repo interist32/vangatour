@@ -68,6 +68,23 @@ class Result extends React.Component {
     <Link to="/q/1" className="btn btn-secondary">Попробуйте еще раз!</Link>
   </div>
 
+  <div className="or">
+    ИЛИ
+  </div>
+
+  <div className="centered">
+    <a className="btn btn-secondary" target="_blank" href="https://docs.google.com/forms/d/1i7yrirq06h6uzGr_gxiSi3qz4oynogDmFwK0VR8z4eQ/edit?usp=sharing">
+    Оставьте заявку <br/> нашим заботливым турменеджерам!
+    </a>
+  </div>
+
+  <div className="centered footer">
+		<div>&copy; 2016 ВангаТур</div>
+    <a target="_blank" href="https://docs.google.com/forms/d/1LzMUsfmjWaNEbOG91MxVFRj6mRXa_VT2gRwvhJfalqs/edit?usp=sharing">
+      Обратная связь (напишите нам свое мнение)
+    </a>
+  </div>
+
   </div>;
 
   export default Result;
