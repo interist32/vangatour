@@ -20,11 +20,10 @@ class Question extends React.Component {
 
     const question = this.props.questions.list.filter(item => item.id == this.props.params.id)[0];
     const variants = question.variants.map(variant => <Card onClick={this.onAnswer.bind(this, question.id, variant.id)} key={variant.id} caption={variant.caption} image={variant.image}/>);
-    const cardWrapperClass = question.id == 1 ? 'card-wrapper-float' : 'card-wrapper-flex';
 
     return (<div>
       <div className="title">{question.title}</div>
-      <div className={cardWrapperClass}>{variants}</div>
+      <div className="card-wrapper">{variants}</div>
       </div>);
     }
   }
