@@ -9,7 +9,7 @@ var winston = require('winston');
 winston.add(winston.transports.File, { filename: './logs/result.log' });
 
 server.connection({
-  host: 'mac-pro.local',
+  host: 'localhost',
   port: 3000
 });
 
