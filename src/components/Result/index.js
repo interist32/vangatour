@@ -73,14 +73,14 @@ class Result extends React.Component {
   </div>
 
   <div className="centered">
-    <a className="btn btn-secondary" target="_blank" href="https://docs.google.com/forms/d/1i7yrirq06h6uzGr_gxiSi3qz4oynogDmFwK0VR8z4eQ/edit?usp=sharing">
+    <a className="btn btn-secondary" target="_blank" href="http://goo.gl/forms/LulmE0k7LeIpgGPm2">
     Оставьте заявку <br/> нашим заботливым турменеджерам!
     </a>
   </div>
 
   <div className="centered footer">
 		<div>&copy; 2016 ВангаТур</div>
-    <a target="_blank" href="https://docs.google.com/forms/d/1LzMUsfmjWaNEbOG91MxVFRj6mRXa_VT2gRwvhJfalqs/edit?usp=sharing">
+    <a target="_blank" href="http://goo.gl/forms/Wj3EwgKJSFhZ1zkm1">
       Обратная связь (напишите нам свое мнение)
     </a>
   </div>
