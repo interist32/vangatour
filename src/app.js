@@ -1,4 +1,5 @@
 import * as React from 'react';
+import * as fastclick from 'fastclick';
 import {getSiteLabels} from './utils';
 import {render} from 'react-dom';
 import {Router, Route, IndexRoute} from 'react-router';
@@ -26,6 +27,9 @@ const router = (
 window.onload = () => {
 	const labels = getSiteLabels();
 	document.title = `${labels.siteName} - ${labels.titleText}`;
+
+	fastclick.attach(document.body);
+
 	render(router, document.getElementById('app'));
 };
 
