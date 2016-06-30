@@ -1,4 +1,5 @@
 import * as React from 'react';
+import {getSiteLabels} from './utils';
 import {render} from 'react-dom';
 import {Router, Route, IndexRoute} from 'react-router';
 
@@ -23,5 +24,11 @@ const router = (
 );
 
 window.onload = () => {
+	const labels = getSiteLabels();
+	document.title = `${labels.siteName} - ${labels.titleText}`;
 	render(router, document.getElementById('app'));
 };
+
+function setDocumentTitle(host){
+
+}

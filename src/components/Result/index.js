@@ -2,7 +2,10 @@ import * as React from 'react';
 import HotelCard from '../HotelCard';
 import Spinner from '../Spinner';
 import {Link} from 'react-router';
+import {getSiteLabels} from '../../utils';
 import 'style!./style.css'
+
+let labels = getSiteLabels();
 
 class Result extends React.Component {
   constructor(){
@@ -79,7 +82,7 @@ class Result extends React.Component {
   </div>
 
   <div className="centered footer">
-		<div>&copy; 2016 ВангаТур</div>
+		<div>&copy; 2016 {labels.siteName}</div>
     <a target="_blank" href="http://goo.gl/forms/Wj3EwgKJSFhZ1zkm1">
       Обратная связь (напишите нам свое мнение)
     </a>
