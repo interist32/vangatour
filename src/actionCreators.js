@@ -16,7 +16,8 @@ export function fetchResults(answers){
     dispatch(showFetching());
     fetch('/getOffers', {
       method: 'POST',
-      body: data
+      body: data,
+      credentials: 'same-origin'
     }).then((response) => {
       dispatch(hideFetching());
       return response.json();

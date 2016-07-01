@@ -29,6 +29,17 @@ server.register(inert, (err)=>{
   });
 
   server.route({
+    method: 'POST',
+    path: '/log',
+    handler: function(request, reply){
+      var params = JSON.parse(request.payload.json);
+
+      winston.log('info', 'url', { userId:request.state.userId, params: params });
+      return reply('ok');
+    }
+  });
+
+  server.route({
     method: 'GET',
     path: '/q/{q}',
     handler: function(request, reply){
@@ -50,7 +61,7 @@ server.register(inert, (err)=>{
     handler: function(request, reply){
       var answers = JSON.parse(request.payload.json);
 
-      winston.log('info', 'getOffers', { answers: answers });
+      winston.log('info', 'getOffers', { userId:request.state.userId, answers: answers });
       reply(filterOffers(offers, answers));
     }
   });
@@ -64,23 +75,23 @@ function filterOffers(offers, userData) {
   var filteredOffers = offers.slice();
 
   filteredOffers = filteredOffers
+  .filter(o=>userData['1'] == 8 || o.country == userData['1'])
+  .filter(o=>o.hasChild == userData['2'])
+  .filter(o=>o.budget == userData['3'])
+  .filter(o=>userData['4']==3 || o.category == userData['4'])
+  .filter(o=>userData['5']==3 || o.beach == userData['5'])
+  .filter(o=>o.seaDistance == userData['6'])
+  .filter(o=>userData['7']==2 || o.theme == userData['7']);
+
+  if(filteredOffers.length === 0){
+    filteredOffers = offers
     .filter(o=>userData['1'] == 8 || o.country == userData['1'])
-    .filter(o=>o.hasChild == userData['2'])
-    .filter(o=>o.budget == userData['3'])
-    .filter(o=>userData['4']==3 || o.category == userData['4'])
-    .filter(o=>userData['5']==3 || o.beach == userData['5'])
-    .filter(o=>o.seaDistance == userData['6'])
-    .filter(o=>userData['7']==2 || o.theme == userData['7']);
+    .filter(o=>o.budget == userData['3']);
+  }
 
-    if(filteredOffers.length === 0){
-      filteredOffers = offers
-        .filter(o=>userData['1'] == 8 || o.country == userData['1'])
-        .filter(o=>o.budget == userData['3']);
-    }
-
-    return filteredOffers
-      .sort((a,b)=>{
-        return parseFloat(b.rating.replace(',', '.')) - parseFloat(a.rating.replace(',', '.'));
-      })
-      .slice(0, 4);
+  return filteredOffers
+  .sort((a,b)=>{
+    return parseFloat(b.rating.replace(',', '.')) - parseFloat(a.rating.replace(',', '.'));
+  })
+  .slice(0, 4);
 }

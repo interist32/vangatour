@@ -16,6 +16,10 @@ class Question extends React.Component {
     browserHistory.push(nextStep);
   }
 
+  componentWillReceiveProps(props){
+    console.log(props.params.id);
+  }
+
   render(){
 
     const question = this.props.questions.list.filter(item => item.id == this.props.params.id)[0];

@@ -12,6 +12,8 @@ import Result from './components/Result';
 import {Provider} from 'react-redux';
 import store, {history} from './store';
 
+import * as Cookies from 'js-cookie';
+
 const router = (
 	<Provider store={store}>
 		<Router history={history}>
@@ -30,9 +32,9 @@ window.onload = () => {
 
 	fastclick.attach(document.body);
 
+	if(!Cookies.get('userId')){
+		Cookies.set('userId', Date.now());
+	}
+
 	render(router, document.getElementById('app'));
 };
-
-function setDocumentTitle(host){
-
-}
